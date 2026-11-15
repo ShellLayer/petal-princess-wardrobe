@@ -1,0 +1,14 @@
+{
+  "counts": {
+    "dress": 48,
+    "shoes": 36,
+    "hair": 30,
+    "makeup": 16,
+    "headwear": 42,
+    "mask": 24,
+    "wings": 30,
+    "accessory": 42,
+    "scene": 12
+  },
+  "errors": []
+}

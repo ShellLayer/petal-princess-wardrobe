@@ -1,0 +1,99 @@
+花间小公主 4.0 原始生图提示词
+所有素材由内置 image_gen 工具原创，透明背景参数开启。原图完整保留。
+
+=== head-a ===
+保存：assets/v4/head-a-original.png
+
+Use case: illustration-story. Production asset: integrated HEAD-AND-HAIR portraits for a Chinese children's dress-up game. The reference supplies the exact Chinese little girl's identity and facial features.
+Create ONE landscape transparent PNG sprite sheet, EXACT 3 columns by 2 rows of equally sized SQUARE cells, ideally overall 1536x1024. Each cell contains the SAME Chinese girl's COMPLETE HEAD including face, ears, fitted hair and a tiny neck, front-facing, same gentle smile, same moderate almond-shaped dark brown eyes, same proportions and same size. No bodies, shoulders, clothing, accessories, earrings or ornaments. The face and hair must be drawn together as one anatomically coherent portrait.
+CRITICAL PROPORTION FIX: natural compact hair fitted to the actual skull. Scalp hair cap only about 8-12% wider than the underlying head on each side. Never a large inflated wig. Buns are small, about 20-24% of the bare head width each. A high bun or loop may be taller, but the main cap still hugs the skull. Hairline follows the forehead; temples fitted, eyes and eyebrows unobstructed. No very broad bald forehead, no huge black side cushions.
+Within each square cell keep the eye line horizontal, pupils near x=205 and x=305, y=245; chin near y=340. Face center x=255, same frontal orientation. Entire hairstyle fits inside the cell with safe 6% margins. Tiny neck ends near y=385, transparent below. For shoulder braids allow ends to y=470. Real transparent alpha around the entire portrait; FACE IS INCLUDED AND OPAQUE, no face holes. No labels, numbers, grids, borders, shadows or backdrop.
+Style: premium Chinese watercolor and fine colored-pencil children's picture-book character art, delicate soft shading, natural child face, soft dimensional fine hair strands. Same warm light-medium skin tone as reference. Beautiful but age appropriate; no makeup (the game adds it separately). Reading order top left to bottom right:
+1. Black hair in two SMALL neat round buns (双丫髻), center part, short fine cheek wisps.
+2. Black hair in two SMALL upright oval loops (双环髻), clear loops with naturally fitted smooth cap, short wispy center part.
+3. Black hair drawn into a SMALL low rear coiled bun (低绾髻), neatly brushed-back fitted temples, two short cheek wisps, no disconnected neck tufts.
+4. Black hair in one SMALL compact spiral bun atop the crown (单螺髻), smooth center-parted cap hugging the skull.
+5. Black center-parted hair with two slim shoulder-length braids attached behind ears, small low side knots, no bulky side cushions.
+6. Black hair with two graceful SLENDER raised open loop buns (飞仙双鬟灵感), loops small and airy, compact fitted scalp hair.
+
+=== head-b ===
+保存：assets/v4/head-b-original.png
+
+Use case: illustration-story. Production asset: integrated HEAD-AND-HAIR portraits for a Chinese children's dress-up game. The reference supplies the exact Chinese little girl's identity and facial features.
+Create ONE landscape transparent PNG sprite sheet, EXACT 3 columns by 2 rows of equally sized SQUARE cells, ideally overall 1536x1024. Each cell contains the SAME Chinese girl's COMPLETE HEAD including face, ears, fitted hair and a tiny neck, front-facing, same gentle smile, same moderate almond-shaped dark brown eyes, same proportions and same size. No bodies, shoulders, clothing, accessories, earrings or ornaments. The face and hair must be drawn together as one anatomically coherent portrait.
+CRITICAL PROPORTION FIX: natural compact hair fitted to the actual skull. Scalp hair cap only about 8-12% wider than the underlying head on each side. Never a large inflated wig. Buns are small, about 20-24% of the bare head width each. A high bun or loop may be taller, but the main cap still hugs the skull. Hairline follows the forehead; temples fitted, eyes and eyebrows unobstructed. No very broad bald forehead, no huge black side cushions.
+Within each square cell keep the eye line horizontal, pupils near x=205 and x=305, y=245; chin near y=340. Face center x=255, same frontal orientation. Entire hairstyle fits inside the cell with safe 6% margins. Tiny neck ends near y=385, transparent below. For shoulder braids allow ends to y=470. Real transparent alpha around the entire portrait; FACE IS INCLUDED AND OPAQUE, no face holes. No labels, numbers, grids, borders, shadows or backdrop.
+Style: premium Chinese watercolor and fine colored-pencil children's picture-book character art, delicate soft shading, natural child face, soft dimensional fine hair strands. Same warm light-medium skin tone as reference. Beautiful but age appropriate; no makeup (the game adds it separately). Reading order top left to bottom right:
+1. Two SMALL coiled shell buns (双螺髻), fitted black hair cap, center part.
+2. Two modest drooping loop buns beside the upper ears (垂鬟灵感), small airy loops, no broad cushions.
+3. Three delicate slender upright loop knots (三环髻灵感), small and airy above a compact fitted black scalp cap.
+4. A small neat low chignon at the back, Song-inspired, two light wispy strands at temples.
+5. A compact graceful braided coil bun, Ming-inspired, smooth fitted center part, small bun visible at crown.
+6. A neat short braid pulled back over a small coiled low bun, Qing-inspired girl's everyday hair, fitted black cap, no headdress.
+
+=== head-c ===
+保存：assets/v4/head-c-original.png
+
+Use case: illustration-story. Production asset: integrated HEAD-AND-HAIR portraits for a Chinese children's dress-up game. The reference supplies the exact Chinese little girl's identity and facial features.
+Create ONE landscape transparent PNG sprite sheet, EXACT 3 columns by 2 rows of equally sized SQUARE cells, ideally overall 1536x1024. Each cell contains the SAME Chinese girl's COMPLETE HEAD including face, ears, fitted hair and a tiny neck, front-facing, same gentle smile, same moderate almond-shaped dark brown eyes, same proportions and same size. No bodies, shoulders, clothing, accessories, earrings or ornaments. The face and hair must be drawn together as one anatomically coherent portrait.
+CRITICAL PROPORTION FIX: natural compact hair fitted to the actual skull. Scalp hair cap only about 8-12% wider than the underlying head on each side. Never a large inflated wig. Buns are small, about 20-24% of the bare head width each. A high bun or loop may be taller, but the main cap still hugs the skull. Hairline follows the forehead; temples fitted, eyes and eyebrows unobstructed. No very broad bald forehead, no huge black side cushions.
+Within each square cell keep the eye line horizontal, pupils near x=205 and x=305, y=245; chin near y=340. Face center x=255, same frontal orientation. Entire hairstyle fits inside the cell with safe 6% margins. Tiny neck ends near y=385, transparent below. For shoulder braids allow ends to y=470. Real transparent alpha around the entire portrait; FACE IS INCLUDED AND OPAQUE, no face holes. No labels, numbers, grids, borders, shadows or backdrop.
+Style: premium Chinese watercolor and fine colored-pencil children's picture-book character art, delicate soft shading, natural child face, soft dimensional fine hair strands. Same warm light-medium skin tone as reference. Beautiful but age appropriate; no makeup (the game adds it separately). Reading order top left to bottom right:
+1. Long straight black hair with delicate wispy brow-length bangs, ends to lower shoulders, flat fitted crown.
+2. Slim twin braids pulled back from a center part, braids falling to shoulders; fitted scalp, fine fringe.
+3. A small single low ponytail at rear, side part with a slim side-swept fringe, soft natural dark hair.
+4. A single compact upright oval ring bun, black fitted cap, slender graceful top loop.
+5. Two slim short side ponytails with small curved ends, center part and soft wispy fringe.
+6. A neatly woven braid crown hugging the skull and compact low bun, dark hair, no bulky halo.
+
+=== head-d ===
+保存：assets/v4/head-d-original.png
+
+Use case: illustration-story. Production asset: integrated HEAD-AND-HAIR portraits for a Chinese children's dress-up game. The reference supplies the exact Chinese little girl's identity and facial features.
+Create ONE landscape transparent PNG sprite sheet, EXACT 3 columns by 2 rows of equally sized SQUARE cells, ideally overall 1536x1024. Each cell contains the SAME Chinese girl's COMPLETE HEAD including face, ears, fitted hair and a tiny neck, front-facing, same gentle smile, same moderate almond-shaped dark brown eyes, same proportions and same size. No bodies, shoulders, clothing, accessories, earrings or ornaments. The face and hair must be drawn together as one anatomically coherent portrait.
+CRITICAL PROPORTION FIX: natural compact hair fitted to the actual skull. Scalp hair cap only about 8-12% wider than the underlying head on each side. Never a large inflated wig. Buns are small, about 20-24% of the bare head width each. A high bun or loop may be taller, but the main cap still hugs the skull. Hairline follows the forehead; temples fitted, eyes and eyebrows unobstructed. No very broad bald forehead, no huge black side cushions.
+Within each square cell keep the eye line horizontal, pupils near x=205 and x=305, y=245; chin near y=340. Face center x=255, same frontal orientation. Entire hairstyle fits inside the cell with safe 6% margins. Tiny neck ends near y=385, transparent below. For shoulder braids allow ends to y=470. Real transparent alpha around the entire portrait; FACE IS INCLUDED AND OPAQUE, no face holes. No labels, numbers, grids, borders, shadows or backdrop.
+Style: premium Chinese watercolor and fine colored-pencil children's picture-book character art, delicate soft shading, natural child face, soft dimensional fine hair strands. Same warm light-medium skin tone as reference. Beautiful but age appropriate; no makeup (the game adds it separately). Reading order top left to bottom right:
+1. Two small half-up buns with long straight dark hair falling behind shoulders, fitted black cap and short wisps.
+2. A tiny lotus-like topknot made entirely of braided hair (莲心小髻), slim loop strands, fitted black cap.
+3. A neat side braid over one shoulder, side part with soft fringe, modest dark hair volume.
+4. A compact double-stack chignon (叠云小髻), each knot small, fitted crown with clear natural hairline.
+5. A light rounded short bob, black hair, airy wispy bangs, chin-length tucked behind ears.
+6. A single slender loop bun at back of crown (回环髻灵感), center-parted fitted black hair cap.
+
+=== head-legacy ===
+保存：assets/v4/head-legacy-original.png
+
+Use case: illustration-story. Production asset: integrated HEAD-AND-HAIR portraits for a Chinese children's dress-up game. The reference supplies the exact Chinese little girl's identity and facial features.
+Create ONE landscape transparent PNG sprite sheet, EXACT 3 columns by 2 rows of equally sized SQUARE cells, ideally overall 1536x1024. Each cell contains the SAME Chinese girl's COMPLETE HEAD including face, ears, fitted hair and a tiny neck, front-facing, same gentle smile, same moderate almond-shaped dark brown eyes, same proportions and same size. No bodies, shoulders, clothing, accessories, earrings or ornaments. The face and hair must be drawn together as one anatomically coherent portrait.
+CRITICAL PROPORTION FIX: natural compact hair fitted to the actual skull. Scalp hair cap only about 8-12% wider than the underlying head on each side. Never a large inflated wig. Buns are small, about 20-24% of the bare head width each. A high bun or loop may be taller, but the main cap still hugs the skull. Hairline follows the forehead; temples fitted, eyes and eyebrows unobstructed. No very broad bald forehead, no huge black side cushions.
+Within each square cell keep the eye line horizontal, pupils near x=205 and x=305, y=245; chin near y=340. Face center x=255, same frontal orientation. Entire hairstyle fits inside the cell with safe 6% margins. Tiny neck ends near y=385, transparent below. For shoulder braids allow ends to y=470. Real transparent alpha around the entire portrait; FACE IS INCLUDED AND OPAQUE, no face holes. No labels, numbers, grids, borders, shadows or backdrop.
+Style: premium Chinese watercolor and fine colored-pencil children's picture-book character art, delicate soft shading, natural child face, soft dimensional fine hair strands. Same warm light-medium skin tone as reference. Beautiful but age appropriate; no makeup (the game adds it separately). Reading order top left to bottom right:
+1. Chestnut brown long gentle waves, fitted crown, soft wispy fringe, slim locks beside cheeks.
+2. Chocolate brown twin slim shoulder braids, side-swept soft fringe, compact fitted crown.
+3. Golden brown short rounded bob, wispy bangs, tucked ears, no oversized volume.
+4. Dark brown compact round top bun, soft wispy bangs, no ornaments, fitted crown.
+5. Honey brown high ponytail, soft side fringe, compact crown, slim ponytail falling beside shoulder.
+6. Long straight glossy black hair, center part, fitted crown, slim sides, no bulky pads.
+
+=== garments-a ===
+保存：assets/v4/garments-a-original.png
+
+Use case: precise-object-edit, Chinese historical dress-up production atlas. Reference is the Chinese child's body rig to preserve. EXACT same reference composition: 3 columns x 2 rows of equally sized portrait cells, each cell aspect ratio 1:2, same small Chinese girl's body pose and neckline, wrists, ankles, bare feet positions in every cell. Chinese watercolor and delicate gongbi children's picture-book finish, richly detailed embroidered silk, rounded childlike proportions. Change ONLY the six clothes. Same bald head and bare feet in every cell. These head/feet are disposable guide layers that the production pipeline will crop off. Modest CHILD versions of historical silhouettes, covered chest, shoulders and legs, no makeup. Sleeves vary but keep hands visible in exactly the reference locations, hands around x=51 and x=311 of normalized 362-wide cell at y=398. Neckline y=230, garment top y=214, hems end y=622 leaving ankles and feet. No hair, hats, head ornaments, shoes, jewellery, handheld props. All pixels around the dolls must have REAL ALPHA=0 TRANSPARENCY: no white paper texture, no gray checker, no fake transparency. No ground, shadows, text, cell borders, grid or labels. Period-inspired artistic children's clothes, not museum replicas. Read outfits top-left, top-middle, top-right, bottom-left, bottom-middle, bottom-right.
+1. Warring States-inspired child cross-collar blue-green wrap robe, bamboo-leaf embroidery, muted plum borders, slim layered straight silhouette.
+2. Eastern Han-inspired child ivory narrow-sleeve cross-collar jacket over warm vermilion pleated skirt, finely woven dark red sash, small geometric cloud trim.
+3. Eastern Jin-inspired light sage broad-sleeve ru jacket with fine navy border and soft pale blue skirt, graceful layered sash, slender drapery.
+4. Northern Dynasties-inspired compact round-collar pale peach long tunic robe, light ivory-and-gold narrow embroidered cuffs, moss-green woven belt.
+5. Sui-inspired pale apricot short fitted ru jacket and high-waist long skirt with alternating ivory and teal vertical panels, narrow golden sash.
+6. Tang-inspired girl's modest round-collar riding robe, soft dusty rose silk with fine cloud medallions, narrow sleeves, slim warm gold waist belt; child garden activity outfit.
+
+=== garments-b ===
+保存：assets/v4/garments-b-original.png
+
+Use case: precise-object-edit, Chinese historical dress-up production atlas. Reference is the Chinese child's body rig to preserve. EXACT same reference composition: 3 columns x 2 rows of equally sized portrait cells, each cell aspect ratio 1:2, same small Chinese girl's body pose and neckline, wrists, ankles, bare feet positions in every cell. Chinese watercolor and delicate gongbi children's picture-book finish, richly detailed embroidered silk, rounded childlike proportions. Change ONLY the six clothes. Same bald head and bare feet in every cell. These head/feet are disposable guide layers that the production pipeline will crop off. Modest CHILD versions of historical silhouettes, covered chest, shoulders and legs, no makeup. Sleeves vary but keep hands visible in exactly the reference locations, hands around x=51 and x=311 of normalized 362-wide cell at y=398. Neckline y=230, garment top y=214, hems end y=622 leaving ankles and feet. No hair, hats, head ornaments, shoes, jewellery, handheld props. All pixels around the dolls must have REAL ALPHA=0 TRANSPARENCY: no white paper texture, no gray checker, no fake transparency. No ground, shadows, text, cell borders, grid or labels. Period-inspired artistic children's clothes, not museum replicas. Read outfits top-left, top-middle, top-right, bottom-left, bottom-middle, bottom-right.
+1. Song-inspired short tea-green open-front beizi over pale ivory underblouse and softly pleated lavender skirt, fine chrysanthemum trim.
+2. Liao-inspired warm copper red narrow-sleeve brocade robe, modest round collar, subtle gold wild-goose roundel embroidery and woven narrow sash.
+3. Yuan-inspired child pale jade sleeveless long bijia vest over cream long-sleeved robe, delicate geometric gold borders, ankle-length skirt.
+4. Ming-inspired girl's pale cornflower-blue round-collar long robe with white cuffs and delicate tiny magnolia embroidery, loose but modest sleeves.
+5. Qing Han-child-inspired festive coral quilted sleeveless vest with pale gold round embroidered flowers over modest ivory blouse and jade-green long skirt; short straight vest with small fabric knot buttons.
+6. Lotus fairy CHILD fantasy dress inspired by Chinese flowers: modest long-sleeved pale pink jacket, mint green long skirt with overlapping lotus-petal hem panels, fine lotus embroidery; no bare shoulders, midriff, jewellery or floating halo.

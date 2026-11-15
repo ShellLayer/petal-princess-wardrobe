@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#fbf7ef">
+  <meta name="description" content="花间小公主，为小朋友设计的古风换装世界。衣裳、鞋子、发型、淡妆与配饰随心搭配，自选颜色，留下自己的千年童话。">
+  <title>花间小公主 · 千年华服衣橱</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='18' fill='%23f7eddf'/%3E%3Cg fill='%23bd8c83'%3E%3Ccircle cx='32' cy='20' r='10'/%3E%3Ccircle cx='44' cy='29' r='10'/%3E%3Ccircle cx='39' cy='43' r='10'/%3E%3Ccircle cx='25' cy='43' r='10'/%3E%3Ccircle cx='20' cy='29' r='10'/%3E%3C/g%3E%3Ccircle cx='32' cy='32' r='6' fill='%23f2d6a0'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="large-play.css">
+  <link rel="stylesheet" href="ancient-play.css">
+  <link rel="stylesheet" href="beauty-play.css">
+  <script src="assets.js" defer></script>
+  <script src="game-data.js" defer></script>
+  <script src="ancient-data.js" defer></script>
+  <script src="beauty-data.js" defer></script>
+  <script src="fitting-data.js" defer></script>
+  <script src="character-renderer.js" defer></script>
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <div class="app-shell">
+    <header class="site-header">
+      <a class="brand" href="#" aria-label="花间小公主，游戏首页">
+        <span class="brand-mark" data-icon="flower" aria-hidden="true"></span>
+        <span class="brand-words"><span class="brand-name">花间小公主</span><span class="brand-en">穿 衣 裳 · 逛 千 年</span></span>
+      </a>
+      <nav class="header-tools" aria-label="游戏工具">
+        <button class="size-button" id="size-button" aria-label="再放大一点" aria-pressed="false"><span data-icon="zoom" aria-hidden="true"></span><span>再大一点</span></button>
+        <button class="tool-button" id="sound-button" aria-label="开启声音" aria-pressed="false" title="开启声音"><span data-icon="sound-off" aria-hidden="true"></span></button>
+        <button class="tool-button fullscreen-tool" id="fullscreen-button" aria-label="进入全屏" title="进入全屏"><span data-icon="expand" aria-hidden="true"></span></button>
+        <span class="tool-divider" aria-hidden="true"></span>
+        <button class="parent-button" id="parent-button"><span data-icon="leaf" aria-hidden="true"></span><span>家长小角落</span></button>
+      </nav>
+    </header>
+
+    <main>
+      <section class="welcome" aria-labelledby="page-title">
+        <div class="welcome-copy"><p class="eyebrow"><span></span> 一起逛逛千年华服小衣橱</p><h1 id="page-title">一袭华服，<em>千年童话。</em><span class="title-sparkle" aria-hidden="true">✧</span></h1><p class="welcome-description">点一点，穿上喜欢的衣裳去游园。</p></div>
+        <div class="welcome-note" aria-hidden="true"><span class="note-star">✦</span><span>每一袭衣裳<br>都藏着小故事</span><svg viewBox="0 0 100 45"><path d="M5 8q40 44 78 12m-13-5 15 4-8 13"/></svg></div>
+      </section>
+
+      <div class="play-layout">
+        <section class="stage-panel" aria-label="公主换装预览">
+          <div class="scene" id="scene" data-ready="false">
+            <div class="scene-background" id="scene-background"></div>
+            <div class="stage-topline"><span class="scene-label"><span data-icon="flower" aria-hidden="true"></span><span id="scene-name">玫瑰花园</span></span><button class="stage-round-button" id="undo-button" aria-label="撤销上一次搭配" title="撤销上一次搭配" disabled><span data-icon="undo" aria-hidden="true"></span></button></div>
+            <div class="character" id="character" role="img" aria-label="穿着古风衣裳的小公主"></div>
+            <div class="sparkles" id="sparkles" aria-hidden="true"></div>
+            <div class="story-bubble" id="story-bubble" role="status" hidden></div>
+            <div class="stage-bottomline"><button class="detail-button" id="detail-button" aria-pressed="false"><span data-icon="zoom" aria-hidden="true"></span><span>放大看看</span></button><button class="stage-round-button photo-shortcut" id="photo-shortcut" aria-label="给公主拍张照片" title="拍张照片"><span data-icon="camera" aria-hidden="true"></span></button></div>
+            <div class="loading-note" id="loading-note" role="status">小公主正在走进花园…</div>
+            <div class="asset-error" id="asset-error" hidden><p>图片还没准备好</p><button class="primary-button" id="reload-assets">再试一次</button></div>
+          </div>
+          <div class="stage-caption"><span class="caption-flower" data-icon="flower" aria-hidden="true"></span><span>从商周到明清，把喜欢的故事穿在身上</span><span class="caption-flower" data-icon="flower" aria-hidden="true"></span></div>
+        </section>
+
+        <section class="wardrobe" aria-labelledby="wardrobe-title">
+          <div class="wardrobe-heading"><div><p class="eyebrow wardrobe-eyebrow">千年华服，随心搭配</p><h2 id="wardrobe-title">我的华服衣橱<span aria-hidden="true">✿</span></h2></div><button class="era-library-button" id="era-library-button"><span data-icon="story" aria-hidden="true"></span><span>朝代衣橱</span></button></div>
+          <span class="collection-tag" id="collection-count">48 件小美好</span>
+          <div class="category-tabs" id="category-tabs" role="tablist" aria-label="选择搭配类别"></div>
+          <div class="items-heading"><span id="category-description">选一条喜欢的裙子吧</span><span class="tiny-stars" aria-hidden="true">✧ ✦</span></div>
+          <button class="filter-chip" id="filter-chip" hidden>显示全部衣裳</button>
+          <div class="color-picker" id="color-picker" role="group" aria-label="选择衣裳颜色"><div class="color-heading"><span id="color-title">给衣裳挑个颜色</span><span id="color-name">原色</span></div><div class="color-swatches" id="color-swatches"></div></div>
+          <div class="item-grid" id="item-grid" role="tabpanel" aria-labelledby="tab-dress" tabindex="0"></div>
+          <div class="item-pager" id="item-pager"><button id="previous-page" aria-label="上一页配件"><span aria-hidden="true">←</span> 上一页</button><span id="page-status" role="status" aria-live="polite">1 / 6</span><button id="next-page" aria-label="下一页配件">下一页 <span aria-hidden="true">→</span></button></div>
+          <div class="wardrobe-bottom"><button class="random-button" id="invitation-button"><span data-icon="story" aria-hidden="true"></span><span>游园请帖</span></button><button class="random-button" id="random-button"><span data-icon="wand" aria-hidden="true"></span><span>惊喜搭配</span></button><button class="primary-button photo-button" id="photo-button"><span data-icon="camera" aria-hidden="true"></span><span>拍张照片</span></button></div>
+          <p class="wardrobe-footnote"><span data-icon="sparkle" aria-hidden="true"></span> 没有对错，怎么搭都可爱</p>
+        </section>
+      </div>
+
+      <footer class="site-footer"><span><span class="online-dot"></span> 为小小的你，装满童话</span><button id="album-button"><span data-icon="album" aria-hidden="true"></span> 我的相册 <span class="album-count" id="album-count">0</span></button><span class="footer-love">一袭衣裳，一个故事 <span aria-hidden="true">♡</span></span></footer>
+    </main>
+  </div>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <div class="sr-only" id="live-status" role="status" aria-live="polite" aria-atomic="true"></div>
+
+  <dialog class="photo-dialog" id="photo-dialog" aria-labelledby="photo-title">
+    <button class="dialog-close" data-close="photo-dialog" aria-label="关闭照片"><span data-icon="close" aria-hidden="true"></span></button>
+    <p class="dialog-eyebrow">留下一张自己的华服小像</p><h2 id="photo-title">把这一刻，装进童话里</h2><p class="dialog-description">这是你创造的小公主呀！</p>
+    <div class="photo-print"><canvas id="photo-canvas" width="720" height="1040" hidden aria-label="公主搭配纪念照片"></canvas><img id="photo-preview" alt="你创造的小公主纪念照片" width="720" height="1040" hidden></div>
+    <p class="photo-status" id="photo-status" role="status"></p>
+    <div class="dialog-actions"><button class="secondary-button" id="save-album-button"><span data-icon="heart" aria-hidden="true"></span>放进相册</button><button class="primary-button" id="download-button"><span data-icon="download" aria-hidden="true"></span>保存图片</button></div>
+    <button class="text-button" data-close="photo-dialog">继续换装 <span aria-hidden="true">→</span></button>
+  </dialog>
+
+  <dialog class="album-dialog" id="album-dialog" aria-labelledby="album-title"><button class="dialog-close" data-close="album-dialog" aria-label="关闭相册"><span data-icon="close" aria-hidden="true"></span></button><p class="dialog-eyebrow">把每一次喜欢，都收进相册</p><h2 id="album-title">我的童话相册</h2><p class="dialog-description">点一张照片，就能穿回那一套搭配。</p><div id="album-grid" class="album-grid"></div><p class="small-note">最多收藏 12 套搭配，保存在这台设备的当前浏览器里。</p></dialog>
+
+  <dialog class="parent-dialog" id="parent-dialog" aria-labelledby="parent-title"><button class="dialog-close" data-close="parent-dialog" aria-label="关闭家长设置"><span data-icon="close" aria-hidden="true"></span></button><p class="dialog-eyebrow">给陪伴孩子的大人</p><h2 id="parent-title">家长小角落</h2><p class="dialog-description">陪孩子聊聊颜色，编一个小公主的故事。</p>
+    <div class="setting-row"><label for="sound-setting"><strong>轻柔音效</strong><span>点选时响起一小段铃音</span></label><input class="switch" type="checkbox" id="sound-setting"></div>
+    <div class="setting-row"><label for="voice-setting"><strong>语音小提示</strong><span id="voice-note">朗读服装名称，帮助不识字的小朋友</span></label><input class="switch" type="checkbox" id="voice-setting"></div>
+    <div class="setting-row"><label for="motion-setting"><strong>安静画面</strong><span>关闭换装星星与过渡动画</span></label><input class="switch" type="checkbox" id="motion-setting"></div>
+    <div class="setting-row"><label for="size-setting"><strong>再大一点</strong><span>进一步放大人物、图片与按钮；默认已经使用大画面</span></label><input class="switch" type="checkbox" id="size-setting"></div>
+    <div class="setting-row reminder-row"><label for="break-setting"><strong>休息小提醒</strong><span>按本次实际游玩时间提醒，切到后台时暂停</span></label><select id="break-setting"><option value="0">不提醒</option><option value="5">5 分钟</option><option value="10">10 分钟</option><option value="15">15 分钟</option></select></div>
+    <div class="parent-note"><span data-icon="leaf" aria-hidden="true"></span><p>自由换装，不设评分、输赢或付费。游戏不含广告、聊天和追踪。古装参考博物馆资料，作儿童绘本化演绎；神话主题另行标注。搭配只保存在本机，可选语音取决于设备。</p></div>
+    <button class="secondary-button parent-done" data-close="parent-dialog">设置好啦</button>
+  </dialog>
+
+  <dialog class="invitation-dialog" id="invitation-dialog" aria-labelledby="invitation-title"><button class="dialog-close" data-close="invitation-dialog" aria-label="关闭童话邀请"><span data-icon="close" aria-hidden="true"></span></button><p class="dialog-eyebrow">穿上华服，出门游园</p><h2 id="invitation-title">小公主收到邀请啦</h2><p class="dialog-description">想去哪里玩？换好衣裳，再讲一个自己的故事。</p><div class="invitation-grid" id="invitation-grid"></div></dialog>
+  <dialog class="era-dialog" id="era-dialog" aria-labelledby="era-title"><button class="dialog-close" data-close="era-dialog" aria-label="关闭朝代衣橱"><span data-icon="close" aria-hidden="true"></span></button><p class="dialog-eyebrow">千年衣裳里的小故事</p><h2 id="era-title">想逛哪一间衣橱？</h2><p class="dialog-description">从商周到明清，点一张图片，看看那个时代的衣裳。</p><div class="era-grid" id="era-grid"></div><p class="small-note">朝代衣装是儿童绘本演绎。神话仙衣和童话衣橱单独陈列，搭配时可以自由发挥。</p></dialog>
+
+  <dialog class="break-dialog" id="break-dialog" aria-labelledby="break-title"><div class="break-flower" data-icon="flower" aria-hidden="true"></div><h2 id="break-title">让小眼睛休息一下吧</h2><p class="dialog-description">童话会等你。去看看窗外，<br>或者和家人抱一抱。</p><button class="primary-button" id="rest-button">休息好啦，继续玩</button></dialog>
+  <noscript><p class="noscript-note">请打开浏览器的 JavaScript 功能后，再来和小公主一起玩。</p></noscript>
+</body>
+</html>

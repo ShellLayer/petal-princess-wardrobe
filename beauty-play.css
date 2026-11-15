@@ -1,0 +1,38 @@
+/* Big, static controls. Colour choices stay separate from style cards. */
+.category-tabs { grid-template-columns: repeat(9,minmax(0,1fr)); }
+.category-tab { min-width: 0; }
+.color-picker { margin: 0 0 14px; padding: 12px 14px; background: #faf5eb; border: 1px solid #ede0cc; border-radius: 16px; }
+.color-picker[hidden] { display: none; }
+.color-heading { display: flex; justify-content: space-between; gap: 10px; margin-bottom: 10px; font-size: 14px; color: #8f735c; }
+#color-name { color: #a77f75; }
+.color-swatches { display: flex; flex-wrap: wrap; gap: 9px; }
+.color-swatch { display: grid; place-items: center; width: 46px; height: 46px; min-width: 46px; border: 2px solid #fff8ea; border-radius: 50%; background: var(--swatch); box-shadow: 0 0 0 1px #dbcdb9; padding: 0; color: #fff9ea; }
+.color-swatch > span { display: grid; place-items: center; }
+.color-swatch svg { width: 22px; height: 22px; stroke-width: 2.3; opacity: 0; filter: drop-shadow(0 1px 1px #73574f); }
+.color-swatch[aria-pressed=true] { box-shadow: 0 0 0 3px #b88b7b, 0 0 0 5px #fffaf0; }
+.color-swatch[aria-pressed=true] svg { opacity: 1; }
+.color-swatch.original-color { background: conic-gradient(#d4a6b2,#e3cd91,#a6bda6,#b0c5d5,#c1afcf,#d4a6b2); color: #785d4e; font-size: 16px; }
+.color-swatch.original-color > span { background: #fff8e9e8; border-radius: 50%; width: 29px; height: 29px; }
+.color-swatch:focus-visible { outline: 3px solid #947bb6; outline-offset: 5px; }
+.makeup-thumbnail { position: relative; width: var(--thumb-size); height: var(--thumb-size); max-width: 94%; overflow: hidden; border-radius: 50%; background: #faf0df; pointer-events: none; }
+.makeup-thumbnail > img { position: absolute; width: 206.85%; max-width: none; height: 413.7%; left: -53.14%; top: -52%; }
+.makeup-thumbnail > svg { position: absolute; width: 83.4%; height: 64%; top: 8.57%; left: 8.57%; fill: none; stroke: none; }
+.extra-large .color-swatch { width: 52px; height: 52px; min-width: 52px; }
+@media (min-width:761px) and (max-width:1250px) {
+  .category-tabs { grid-template-columns: repeat(5,minmax(0,1fr)); }
+  .category-tab { height: 69px; }
+  .color-swatches { gap: 10px; }
+}
+@media (max-width:760px) {
+  .category-tabs { grid-template-columns: repeat(5,minmax(0,1fr)); gap: 4px; }
+  .category-tab { height: 65px; font-size: 14px; gap: 4px; }
+  .category-tab svg { width: 27px; height: 27px; }
+  .color-picker { padding: 12px 10px; margin-bottom: 14px; }
+  .color-heading { font-size: 14px; }
+  .color-swatches { gap: 11px; }
+  .color-swatch { width: 44px; height: 44px; min-width: 44px; }
+  .extra-large .category-tab { height: 72px; font-size: 15px; }
+  .extra-large .category-tab svg { width: 30px; height: 30px; }
+  .extra-large .color-swatch { width: 47px; height: 47px; min-width: 47px; }
+  .item-card,.item-pager button,.wardrobe-bottom > button { scroll-margin-top: calc(var(--mobile-stage-height) + 165px); }
+}

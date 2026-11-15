@@ -1,0 +1,15 @@
+node_modules/
+test-results/
+playwright-report/
+*.log
+dist/
+.local/
+releases/
+.env
+.env.*
+!.env.example
+历史版本/
+花间小公主.html
+docs/v4.1/过程检查/
+Thumbs.db
+.DS_Store

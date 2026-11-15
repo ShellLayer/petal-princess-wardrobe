@@ -1,0 +1,122 @@
+[
+  {
+    "index": 0,
+    "original": "assets/v4.2/scene-0-original.png",
+    "sourceWidth": 1122,
+    "sourceHeight": 1402,
+    "width": 1122,
+    "height": 1402,
+    "bytes": 335672,
+    "thumbnailBytes": 9560
+  },
+  {
+    "index": 1,
+    "original": "assets/v4.2/scene-1-original.png",
+    "sourceWidth": 1122,
+    "sourceHeight": 1402,
+    "width": 1122,
+    "height": 1402,
+    "bytes": 293204,
+    "thumbnailBytes": 8146
+  },
+  {
+    "index": 2,
+    "original": "assets/v4.2/scene-2-original.png",
+    "sourceWidth": 1122,
+    "sourceHeight": 1402,
+    "width": 1122,
+    "height": 1402,
+    "bytes": 350708,
+    "thumbnailBytes": 9466
+  },
+  {
+    "index": 3,
+    "original": "assets/v4.2/scene-3-original.png",
+    "sourceWidth": 1122,
+    "sourceHeight": 1402,
+    "width": 1122,
+    "height": 1402,
+    "bytes": 380714,
+    "thumbnailBytes": 11072
+  },
+  {
+    "index": 4,
+    "original": "assets/v4.2/scene-4-original.png",
+    "sourceWidth": 1122,
+    "sourceHeight": 1402,
+    "width": 1122,
+    "height": 1402,
+    "bytes": 356866,
+    "thumbnailBytes": 9598
+  },
+  {
+    "index": 5,
+    "original": "assets/v4.2/scene-5-original.png",
+    "sourceWidth": 1122,
+    "sourceHeight": 1402,
+    "width": 1122,
+    "height": 1402,
+    "bytes": 396610,
+    "thumbnailBytes": 10694
+  },
+  {
+    "index": 6,
+    "original": "assets/v4.2/scene-6-original.png",
+    "sourceWidth": 1122,
+    "sourceHeight": 1402,
+    "width": 1122,
+    "height": 1402,
+    "bytes": 309866,
+    "thumbnailBytes": 9234
+  },
+  {
+    "index": 7,
+    "original": "assets/v4.2/scene-7-original.png",
+    "sourceWidth": 1122,
+    "sourceHeight": 1402,
+    "width": 1122,
+    "height": 1402,
+    "bytes": 399042,
+    "thumbnailBytes": 10820
+  },
+  {
+    "index": 8,
+    "original": "assets/v4.2/scene-8-original.png",
+    "sourceWidth": 1122,
+    "sourceHeight": 1402,
+    "width": 1122,
+    "height": 1402,
+    "bytes": 358374,
+    "thumbnailBytes": 7496
+  },
+  {
+    "index": 9,
+    "original": "assets/v4.2/scene-9-original.png",
+    "sourceWidth": 1122,
+    "sourceHeight": 1402,
+    "width": 1122,
+    "height": 1402,
+    "bytes": 358934,
+    "thumbnailBytes": 9724
+  },
+  {
+    "index": 10,
+    "original": "assets/v4.2/scene-10-original.png",
+    "sourceWidth": 1122,
+    "sourceHeight": 1402,
+    "width": 1122,
+    "height": 1402,
+    "bytes": 262510,
+    "thumbnailBytes": 8602
+  },
+  {
+    "index": 11,
+    "original": "assets/v4.2/scene-11-original.png",
+    "sourceWidth": 1122,
+    "sourceHeight": 1402,
+    "width": 1122,
+    "height": 1402,
+    "bytes": 259912,
+    "thumbnailBytes": 7388
+  }
+]

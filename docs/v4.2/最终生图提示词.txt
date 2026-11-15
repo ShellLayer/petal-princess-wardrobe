@@ -1,0 +1,145 @@
+4.2 场景高清重绘
+方式：内置 image_gen，生成单张背景，transparent_background=false。
+参考：原有12场景概念表，以及先完成的高清荷塘图作为画风参考。保留原有场景主题，重新绘制细节，不声称还原原图中不存在的信息。
+
+=== 场景 0 ===
+保存：assets/v4.2/scene-0-original.png
+
+Use case: illustration-story.
+Production asset: ONE high-resolution background painting for a princess dress-up game, no characters.
+The first reference is a contact sheet of 12 old backgrounds, 6 columns x 2 rows. The second reference is the new high-detail lotus pavilion image: match its crisp fine-ink watercolor finish and native-detail quality, but draw ONLY the scene described below as ONE full image, never a contact sheet.
+Portrait 4:5 composition, ideally 1536x1920 native pixels or larger. Keep a large calm open area through the center for a full-body character. The lower 25-30% must be a clear flat standing area extending horizontally across the painting. Main structures and round objects are drawn in correct undistorted proportions; keep important elements within safe image margins so modest cropping for a wider window does not cut them away.
+Quality goal: visibly sharper than the small old reference. Premium Chinese fine-ink and watercolor children's book painting, precisely articulated edges and materials: fine architectural carving, separate leaves and petals, readable tile joints or grass blades. Delicate controlled paint texture, no large paper grain, broad fuzzy wash, haze, fog, soft-focus, blur, depth-of-field blur, glow blur, low-resolution smoothing, oversharpened halos, or pixelation. Gentle storybook lighting, restrained pastel colours, uncluttered central area, but actual objects must remain clearly drawn.
+No people, dolls, animals, written characters, signs, text, symbols, numbers, labels, borders, watermarks, panels, grids, UI, or collage. Fill the image with ONE coherent scene.
+Scene:
+First reference TOP ROW, FIRST CELL: a gentle fairytale rose garden. A natural arch of ivory and soft pink climbing roses frames the top and far sides, neatly separated rose petals and green leaves, a tiny pale stone balustrade in the far middle distance, warm cream daylight in the spacious center. Lower 30% is a wide pale rose-beige stone garden path with clean articulated tile seams; flowers remain only along side borders. Original generic storybook garden, no buildings dominating the center, no characters, creatures, text or logos.
+
+=== 场景 1 ===
+保存：assets/v4.2/scene-1-original.png
+
+Use case: illustration-story.
+Production asset: ONE high-resolution background painting for a princess dress-up game, no characters.
+The first reference is a contact sheet of 12 old backgrounds, 6 columns x 2 rows. The second reference is the new high-detail lotus pavilion image: match its crisp fine-ink watercolor finish and native-detail quality, but draw ONLY the scene described below as ONE full image, never a contact sheet.
+Portrait 4:5 composition, ideally 1536x1920 native pixels or larger. Keep a large calm open area through the center for a full-body character. The lower 25-30% must be a clear flat standing area extending horizontally across the painting. Main structures and round objects are drawn in correct undistorted proportions; keep important elements within safe image margins so modest cropping for a wider window does not cut them away.
+Quality goal: visibly sharper than the small old reference. Premium Chinese fine-ink and watercolor children's book painting, precisely articulated edges and materials: fine architectural carving, separate leaves and petals, readable tile joints or grass blades. Delicate controlled paint texture, no large paper grain, broad fuzzy wash, haze, fog, soft-focus, blur, depth-of-field blur, glow blur, low-resolution smoothing, oversharpened halos, or pixelation. Gentle storybook lighting, restrained pastel colours, uncluttered central area, but actual objects must remain clearly drawn.
+No people, dolls, animals, written characters, signs, text, symbols, numbers, labels, borders, watermarks, panels, grids, UI, or collage. Fill the image with ONE coherent scene.
+Scene:
+First reference TOP ROW, SECOND CELL: a gentle fairytale cloud-castle balcony. Elegant ivory-and-pale-gold columns at the far LEFT and RIGHT with light rose curtains swept aside, a small distant original storybook castle visible beyond a delicate stone balustrade in middle distance, soft pale peach and clear blue sky. Lower 30% is a broad unobstructed pearly stone-tiled balcony, clean architectural perspective and a clear standing spot. Fine curtain weave, readable ornamental carving and tile joints, soft colour without soft-focus or fuzzy glow. No characters, logos, heraldry or writing.
+
+=== 场景 2 ===
+保存：assets/v4.2/scene-2-original.png
+
+Use case: illustration-story.
+Production asset: ONE high-resolution background painting for a princess dress-up game, no characters.
+The first reference is a contact sheet of 12 old backgrounds, 6 columns x 2 rows. The second reference is the new high-detail lotus pavilion image: match its crisp fine-ink watercolor finish and native-detail quality, but draw ONLY the scene described below as ONE full image, never a contact sheet.
+Portrait 4:5 composition, ideally 1536x1920 native pixels or larger. Keep a large calm open area through the center for a full-body character. The lower 25-30% must be a clear flat standing area extending horizontally across the painting. Main structures and round objects are drawn in correct undistorted proportions; keep important elements within safe image margins so modest cropping for a wider window does not cut them away.
+Quality goal: visibly sharper than the small old reference. Premium Chinese fine-ink and watercolor children's book painting, precisely articulated edges and materials: fine architectural carving, separate leaves and petals, readable tile joints or grass blades. Delicate controlled paint texture, no large paper grain, broad fuzzy wash, haze, fog, soft-focus, blur, depth-of-field blur, glow blur, low-resolution smoothing, oversharpened halos, or pixelation. Gentle storybook lighting, restrained pastel colours, uncluttered central area, but actual objects must remain clearly drawn.
+No people, dolls, animals, written characters, signs, text, symbols, numbers, labels, borders, watermarks, panels, grids, UI, or collage. Fill the image with ONE coherent scene.
+Scene:
+First reference TOP ROW, THIRD CELL: a gentle violet moonlit garden. A complete ROUND golden crescent moon and a few tiny clear star points in the upper RIGHT, positioned well within safe margins. Delicate purple wisteria branches frame upper LEFT, blue and lavender flowers confined to lower side edges, a quiet pale lavender sky and a small low stone garden wall in far middle distance. Lower 30% is a level pale lilac stone-tiled garden path for the character, fine tile joints and sharply defined petals and leaves. Original generic storybook night garden, clear fine-ink detail, no glowing blur, fog, characters, writing or symbols.
+
+=== 场景 3 ===
+保存：assets/v4.2/scene-3-original.png
+
+Use case: illustration-story.
+Production asset: ONE high-resolution background painting for a princess dress-up game, no characters.
+The first reference is a contact sheet of 12 old backgrounds, 6 columns x 2 rows. The second reference is the new high-detail lotus pavilion image: match its crisp fine-ink watercolor finish and native-detail quality, but draw ONLY the scene described below as ONE full image, never a contact sheet.
+Portrait 4:5 composition, ideally 1536x1920 native pixels or larger. Keep a large calm open area through the center for a full-body character. The lower 25-30% must be a clear flat standing area extending horizontally across the painting. Main structures and round objects are drawn in correct undistorted proportions; keep important elements within safe image margins so modest cropping for a wider window does not cut them away.
+Quality goal: visibly sharper than the small old reference. Premium Chinese fine-ink and watercolor children's book painting, precisely articulated edges and materials: fine architectural carving, separate leaves and petals, readable tile joints or grass blades. Delicate controlled paint texture, no large paper grain, broad fuzzy wash, haze, fog, soft-focus, blur, depth-of-field blur, glow blur, low-resolution smoothing, oversharpened halos, or pixelation. Gentle storybook lighting, restrained pastel colours, uncluttered central area, but actual objects must remain clearly drawn.
+No people, dolls, animals, written characters, signs, text, symbols, numbers, labels, borders, watermarks, panels, grids, UI, or collage. Fill the image with ONE coherent scene.
+Scene:
+First reference TOP ROW, FOURTH CELL: a quiet Chinese bamboo grove path. Slender tall green bamboo frames the LEFT and upper edges; the center and right are calm ivory and pale leaf-green space with a few well-defined bamboo silhouettes in the distance. Pale rocks and small ferns at the sides. Bottom 30% is a wide pale stone garden path with precise irregular stone joints and a clear standing spot in the center. Chinese composition, fine ink bamboo leaves, warm morning light, no mist or fog.
+
+=== 场景 4 ===
+保存：assets/v4.2/scene-4-original.png
+
+Use case: illustration-story.
+Production asset: ONE high-resolution background painting for a Chinese princess dress-up game, no characters.
+Input reference is a CONTACT SHEET of 12 old backgrounds, 6 columns x 2 rows. Only use the TOP ROW, FIFTH CELL (the Chinese lotus pond and wooden pavilion) as the concept and palette reference. Repaint that ONE scene as a full SINGLE IMAGE, not a sheet or collage.
+Portrait 4:5 composition, ideally 1536x1920 pixels or larger native detail. A beautiful Chinese lotus garden with a delicate timber waterside pavilion on the RIGHT, a few willow branches framing the upper LEFT, lotus leaves and pale pink blossoms confined to lower side edges, a pale stone railing in middle distance. Keep a large calm open area through the center for a full-body character. The lower 25% must be a clear flat stone-tiled terrace extending horizontally across the image, with legible perspective joints and delicate stone texture, so the character can stand there.
+Quality goal: noticeably sharper and more detailed than the small reference. Crisp, fine Chinese ink and watercolor children's book illustration; readable roof tile courses, carved wooden railing, individual slender willow leaves, precise lotus petal edges, clean stone tile seams. Retain warm ivory, jade green, pale rose and restrained brown. Delicate paint texture with clear edges, no heavy paper grain, no soft-focus, fog, blur, depth-of-field blur, translucent blur wash or low-resolution smoothing. Calm gentle lighting and restrained contrast behind the central character, but actual objects must remain clearly drawn.
+Keep main roof and flowers inside safe image margins so the scene can adapt to a slightly wider game window. No person, doll, animal, text, symbols, labels, borders, watermarks, grids, numbers, UI, or collage. Fill the entire image with ONE coherent scene.
+
+=== 场景 5 ===
+保存：assets/v4.2/scene-5-original.png
+
+Use case: illustration-story.
+Production asset: ONE high-resolution background painting for a princess dress-up game, no characters.
+The first reference is a contact sheet of 12 old backgrounds, 6 columns x 2 rows. The second reference is the new high-detail lotus pavilion image: match its crisp fine-ink watercolor finish and native-detail quality, but draw ONLY the scene described below as ONE full image, never a contact sheet.
+Portrait 4:5 composition, ideally 1536x1920 native pixels or larger. Keep a large calm open area through the center for a full-body character. The lower 25-30% must be a clear flat standing area extending horizontally across the painting. Main structures and round objects are drawn in correct undistorted proportions; keep important elements within safe image margins so modest cropping for a wider window does not cut them away.
+Quality goal: visibly sharper than the small old reference. Premium Chinese fine-ink and watercolor children's book painting, precisely articulated edges and materials: fine architectural carving, separate leaves and petals, readable tile joints or grass blades. Delicate controlled paint texture, no large paper grain, broad fuzzy wash, haze, fog, soft-focus, blur, depth-of-field blur, glow blur, low-resolution smoothing, oversharpened halos, or pixelation. Gentle storybook lighting, restrained pastel colours, uncluttered central area, but actual objects must remain clearly drawn.
+No people, dolls, animals, written characters, signs, text, symbols, numbers, labels, borders, watermarks, panels, grids, UI, or collage. Fill the image with ONE coherent scene.
+Scene:
+First reference TOP ROW, SIXTH CELL: a Chinese palace peony garden. Elegant vermilion timber columns and an ochre-gold tiled pavilion roof frame the RIGHT upper edge, a warm ivory courtyard wall recedes through middle distance, blossoming pale pink peony bushes remain at the lower side edges. An open pale stone paved courtyard spans the lower 30%, with clean rectangular tile joints and a broad standing spot. Keep the whole center spacious and softly lit; no imperial emblems or writing. Detailed carved wood, individual roof tiles, clear petal edges.
+
+=== 场景 6 ===
+保存：assets/v4.2/scene-6-original.png
+
+Use case: illustration-story.
+Production asset: ONE high-resolution background painting for a princess dress-up game, no characters.
+The first reference is a contact sheet of 12 old backgrounds, 6 columns x 2 rows. The second reference is the new high-detail lotus pavilion image: match its crisp fine-ink watercolor finish and native-detail quality, but draw ONLY the scene described below as ONE full image, never a contact sheet.
+Portrait 4:5 composition, ideally 1536x1920 native pixels or larger. Keep a large calm open area through the center for a full-body character. The lower 25-30% must be a clear flat standing area extending horizontally across the painting. Main structures and round objects are drawn in correct undistorted proportions; keep important elements within safe image margins so modest cropping for a wider window does not cut them away.
+Quality goal: visibly sharper than the small old reference. Premium Chinese fine-ink and watercolor children's book painting, precisely articulated edges and materials: fine architectural carving, separate leaves and petals, readable tile joints or grass blades. Delicate controlled paint texture, no large paper grain, broad fuzzy wash, haze, fog, soft-focus, blur, depth-of-field blur, glow blur, low-resolution smoothing, oversharpened halos, or pixelation. Gentle storybook lighting, restrained pastel colours, uncluttered central area, but actual objects must remain clearly drawn.
+No people, dolls, animals, written characters, signs, text, symbols, numbers, labels, borders, watermarks, panels, grids, UI, or collage. Fill the image with ONE coherent scene.
+Scene:
+First reference BOTTOM ROW, FIRST CELL: a Song-inspired Chinese tea courtyard. White plaster garden wall and charcoal roof tiles across middle distance, a neatly drawn open timber doorway at the RIGHT, thin red-plum branches framing upper LEFT, a small round wooden tea table with a simple ceramic tea set and small stool off to the far LEFT, potted bamboo near the edge. Lower 30% is a large empty stone-tiled courtyard for a character. Calm ivory and grey with red blossom accents, precise joinery, ceramic edges and tile joints. No people, calligraphy, signs or writing.
+
+=== 场景 7 ===
+保存：assets/v4.2/scene-7-original.png
+
+Use case: illustration-story.
+Production asset: ONE high-resolution background painting for a princess dress-up game, no characters.
+The first reference is a contact sheet of 12 old backgrounds, 6 columns x 2 rows. The second reference is the new high-detail lotus pavilion image: match its crisp fine-ink watercolor finish and native-detail quality, but draw ONLY the scene described below as ONE full image, never a contact sheet.
+Portrait 4:5 composition, ideally 1536x1920 native pixels or larger. Keep a large calm open area through the center for a full-body character. The lower 25-30% must be a clear flat standing area extending horizontally across the painting. Main structures and round objects are drawn in correct undistorted proportions; keep important elements within safe image margins so modest cropping for a wider window does not cut them away.
+Quality goal: visibly sharper than the small old reference. Premium Chinese fine-ink and watercolor children's book painting, precisely articulated edges and materials: fine architectural carving, separate leaves and petals, readable tile joints or grass blades. Delicate controlled paint texture, no large paper grain, broad fuzzy wash, haze, fog, soft-focus, blur, depth-of-field blur, glow blur, low-resolution smoothing, oversharpened halos, or pixelation. Gentle storybook lighting, restrained pastel colours, uncluttered central area, but actual objects must remain clearly drawn.
+No people, dolls, animals, written characters, signs, text, symbols, numbers, labels, borders, watermarks, panels, grids, UI, or collage. Fill the image with ONE coherent scene.
+Scene:
+First reference BOTTOM ROW, SECOND CELL: a Jiangnan canal-side garden and small stone bridge. Small white-walled grey-tiled Chinese houses at the far sides, a gracefully arched stone bridge in the middle distance, clear green-blue canal reflecting a few crisp architectural edges, slender willow leaves framing upper LEFT and small pink blossom branches on the far RIGHT. Lower 30% is a broad uninterrupted pale stone terrace in front of the water, with clean tile joints, no rail or obstacle crossing the standing area. Refined pastel spring green, grey, ivory and restrained rose.
+
+=== 场景 8 ===
+保存：assets/v4.2/scene-8-original.png
+
+Use case: illustration-story.
+Production asset: ONE high-resolution background painting for a princess dress-up game, no characters.
+The first reference is a contact sheet of 12 old backgrounds, 6 columns x 2 rows. The second reference is the new high-detail lotus pavilion image: match its crisp fine-ink watercolor finish and native-detail quality, but draw ONLY the scene described below as ONE full image, never a contact sheet.
+Portrait 4:5 composition, ideally 1536x1920 native pixels or larger. Keep a large calm open area through the center for a full-body character. The lower 25-30% must be a clear flat standing area extending horizontally across the painting. Main structures and round objects are drawn in correct undistorted proportions; keep important elements within safe image margins so modest cropping for a wider window does not cut them away.
+Quality goal: visibly sharper than the small old reference. Premium Chinese fine-ink and watercolor children's book painting, precisely articulated edges and materials: fine architectural carving, separate leaves and petals, readable tile joints or grass blades. Delicate controlled paint texture, no large paper grain, broad fuzzy wash, haze, fog, soft-focus, blur, depth-of-field blur, glow blur, low-resolution smoothing, oversharpened halos, or pixelation. Gentle storybook lighting, restrained pastel colours, uncluttered central area, but actual objects must remain clearly drawn.
+No people, dolls, animals, written characters, signs, text, symbols, numbers, labels, borders, watermarks, panels, grids, UI, or collage. Fill the image with ONE coherent scene.
+Scene:
+First reference BOTTOM ROW, THIRD CELL: a gentle northern Chinese grassland view. Wide pale blue sky, layered green foothills across the middle distance, a small cream-coloured round felt tent with a restrained geometric border at far RIGHT, tiny groups of delicate wildflowers only at the side edges. Lower 30% is a level sunlit grassy clearing with a clear center standing spot, distinct fine grass blades and a little flat earth visible. Peaceful clear daylight, articulate mountain ridges and tent seams, no horses, people, animals, writing or banners.
+
+=== 场景 9 ===
+保存：assets/v4.2/scene-9-original.png
+
+Use case: illustration-story.
+Production asset: ONE high-resolution background painting for a princess dress-up game, no characters.
+The first reference is a contact sheet of 12 old backgrounds, 6 columns x 2 rows. The second reference is the new high-detail lotus pavilion image: match its crisp fine-ink watercolor finish and native-detail quality, but draw ONLY the scene described below as ONE full image, never a contact sheet.
+Portrait 4:5 composition, ideally 1536x1920 native pixels or larger. Keep a large calm open area through the center for a full-body character. The lower 25-30% must be a clear flat standing area extending horizontally across the painting. Main structures and round objects are drawn in correct undistorted proportions; keep important elements within safe image margins so modest cropping for a wider window does not cut them away.
+Quality goal: visibly sharper than the small old reference. Premium Chinese fine-ink and watercolor children's book painting, precisely articulated edges and materials: fine architectural carving, separate leaves and petals, readable tile joints or grass blades. Delicate controlled paint texture, no large paper grain, broad fuzzy wash, haze, fog, soft-focus, blur, depth-of-field blur, glow blur, low-resolution smoothing, oversharpened halos, or pixelation. Gentle storybook lighting, restrained pastel colours, uncluttered central area, but actual objects must remain clearly drawn.
+No people, dolls, animals, written characters, signs, text, symbols, numbers, labels, borders, watermarks, panels, grids, UI, or collage. Fill the image with ONE coherent scene.
+Scene:
+First reference BOTTOM ROW, FOURTH CELL: a Chinese Lantern Festival street at warm dusk. Restrained clusters of glowing red and pale gold lanterns hang in upper LEFT and upper RIGHT; timber shop facades and tiled roofs frame the outer sides and recede into the background, with NO writing, signs or people. A calm peach and pale cream evening sky fills the upper center. Lower 30% is a broad clear stone-paved street with accurately drawn tile joints, leaving the whole central standing area empty. Fine lantern ribs, carved latticework, crisp edges with gentle warm light rather than blurry glow.
+
+=== 场景 10 ===
+保存：assets/v4.2/scene-10-original.png
+
+Use case: illustration-story.
+Production asset: ONE high-resolution background painting for a princess dress-up game, no characters.
+The first reference is a contact sheet of 12 old backgrounds, 6 columns x 2 rows. The second reference is the new high-detail lotus pavilion image: match its crisp fine-ink watercolor finish and native-detail quality, but draw ONLY the scene described below as ONE full image, never a contact sheet.
+Portrait 4:5 composition, ideally 1536x1920 native pixels or larger. Keep a large calm open area through the center for a full-body character. The lower 25-30% must be a clear flat standing area extending horizontally across the painting. Main structures and round objects are drawn in correct undistorted proportions; keep important elements within safe image margins so modest cropping for a wider window does not cut them away.
+Quality goal: visibly sharper than the small old reference. Premium Chinese fine-ink and watercolor children's book painting, precisely articulated edges and materials: fine architectural carving, separate leaves and petals, readable tile joints or grass blades. Delicate controlled paint texture, no large paper grain, broad fuzzy wash, haze, fog, soft-focus, blur, depth-of-field blur, glow blur, low-resolution smoothing, oversharpened halos, or pixelation. Gentle storybook lighting, restrained pastel colours, uncluttered central area, but actual objects must remain clearly drawn.
+No people, dolls, animals, written characters, signs, text, symbols, numbers, labels, borders, watermarks, panels, grids, UI, or collage. Fill the image with ONE coherent scene.
+Scene:
+First reference BOTTOM ROW, FIFTH CELL: a Chinese winter plum courtyard. Small red and pale pink plum blossoms on slender dark branches frame upper LEFT, a refined white plaster wall with snow-tipped grey roof tiles and a timber pavilion at far RIGHT, sparse bamboo near the edge. Lower 30% is a broad flat pale stone terrace with a light dusting of snow at side edges and clear fine tile joints in the central standing area. Crisp snow contours, tiny blossom stamens and tiled eaves, soft cool-ivory and grey winter daylight; no fog, blur or falling snow obscuring objects.
+
+=== 场景 11 ===
+保存：assets/v4.2/scene-11-original.png
+
+Use case: illustration-story.
+Production asset: ONE high-resolution background painting for a princess dress-up game, no characters.
+The first reference is a contact sheet of 12 old backgrounds, 6 columns x 2 rows. The second reference is the new high-detail lotus pavilion image: match its crisp fine-ink watercolor finish and native-detail quality, but draw ONLY the scene described below as ONE full image, never a contact sheet.
+Portrait 4:5 composition, ideally 1536x1920 native pixels or larger. Keep a large calm open area through the center for a full-body character. The lower 25-30% must be a clear flat standing area extending horizontally across the painting. Main structures and round objects are drawn in correct undistorted proportions; keep important elements within safe image margins so modest cropping for a wider window does not cut them away.
+Quality goal: visibly sharper than the small old reference. Premium Chinese fine-ink and watercolor children's book painting, precisely articulated edges and materials: fine architectural carving, separate leaves and petals, readable tile joints or grass blades. Delicate controlled paint texture, no large paper grain, broad fuzzy wash, haze, fog, soft-focus, blur, depth-of-field blur, glow blur, low-resolution smoothing, oversharpened halos, or pixelation. Gentle storybook lighting, restrained pastel colours, uncluttered central area, but actual objects must remain clearly drawn.
+No people, dolls, animals, written characters, signs, text, symbols, numbers, labels, borders, watermarks, panels, grids, UI, or collage. Fill the image with ONE coherent scene.
+Scene:
+First reference BOTTOM ROW, SIXTH CELL: the Chinese Moon Palace osmanthus garden. A complete perfectly ROUND pale golden moon in upper RIGHT, set far enough inside the image to remain fully visible after modest cropping (moon centre about x=72%, y=21%, diameter about 20% of canvas width). Delicate golden osmanthus flowers and leaves frame upper LEFT. Slender Chinese pavilions with curved grey-violet roof tiles stand at the far sides, with a serene lavender and warm-ivory sky. Lower 30% is a pale stone moon-palace terrace with restrained cloud-scroll motifs confined to its outer edge and clear flat tiles for the character. Wispy painted clouds may sit in the distant sky but do not obscure the foreground. Crisp flower edges, graceful sharp tilework, controlled luminous paint, no haze or blur, no writing.

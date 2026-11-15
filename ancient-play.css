@@ -1,0 +1,60 @@
+:root { --rose: #aa7e79; --rose-deep: #8e625d; }
+.brand-mark { background: #f6eee1; color: #ad845b; border-color: #dfcdb2; }
+.brand-en { font-family: "Microsoft YaHei", sans-serif; letter-spacing: 2px; color: #9a876e; }
+.scene-background { background-image: none; background-size: cover; background-position: center; }
+.scene-artwork { display: block; width: 100%; height: 100%; object-fit: cover; }
+.rig-art { position: absolute; inset: 0; display: block; width: 100%; height: 100%; stroke: none; fill: none; }
+.ground-shadow { bottom: 4.8%; }
+.wardrobe { position: relative; }
+.wardrobe-heading { padding-right: 0; }
+.wardrobe h2 { font-size: 28px; letter-spacing: 1px; }
+.era-library-button { display: flex; align-items: center; justify-content: center; gap: 7px; min-height: 48px; border-radius: 24px; background: #f4ede1; border: 1px solid #e1cfb7; padding: 9px 13px; color: #997657; font-size: 15px; }
+.era-library-button svg { width: 22px; height: 22px; }
+.collection-tag { display: block; width: fit-content; background: transparent; padding: 0; font-size: 13px; margin: -8px 0 13px; color: #a28a73; }
+.item-card { position: relative; padding-bottom: 13px; }
+.item-name { max-width: 100%; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.era-badge { position: absolute; left: 8px; top: 8px; border: 1px solid #e9dcc6; border-radius: 9px; padding: 3px 6px; font-size: 10px; color: #9c8265; background: #fffaf0df; }
+.filter-chip { min-height: 44px; padding: 8px 14px; border-radius: 22px; background: #efe6d7; border: 1px solid #dfcdb1; color: #997452; font-size: 14px; margin: 0 0 13px; }
+.item-pager { display: flex; justify-content: space-between; align-items: center; gap: 12px; margin-top: 14px; }
+.item-pager button { display: flex; align-items: center; justify-content: center; gap: 8px; min-height: 48px; min-width: 120px; border-radius: 13px; border: 1px solid #e6d7c2; background: #faf4e9; padding: 8px 15px; color: #947455; font-size: 16px; }
+.item-pager button > span { font-size: 23px; }
+.item-pager > span { font-size: 15px; color: #a0866b; }
+.scene-thumbnail, .invitation-scene { background-size: cover; background-position: center; }
+.category-tab[aria-selected=true] { background: #fff9ed; color: #a47366; border-color: #d8baa0; }
+.primary-button { background: #ad7d78; border-color: #a67570; }
+.primary-button:hover { background: #9c6c67; }
+.item-card[aria-pressed=true] { border-color: #bc8d80; background: #fcf2e8; box-shadow: 0 0 0 2px #fcf2e8; }
+.selected-check { background: #b68a7e; }
+.era-dialog { width: 880px; }
+.era-grid { display: grid; grid-template-columns: repeat(3, minmax(0,1fr)); gap: 13px; }
+.era-card { display: flex; align-items: center; gap: 10px; min-height: 146px; padding: 12px; border: 1px solid #e3d5c0; border-radius: 17px; background: #fbf4e8; text-align: left; }
+.era-card img { width: 85px; height: 115px; object-fit: contain; flex-shrink: 0; }
+.era-card > span { display: grid; gap: 9px; }
+.era-card strong { font-family: "STKaiti", "KaiTi", serif; font-size: 22px; font-weight: 500; color: #896947; }
+.era-card small { font-size: 12px; line-height: 1.8; color: #a18b74; }
+.era-card:hover { border-color: #bea17b; background: #f7ecda; }
+.items-heading { margin-top: 15px; }
+.wardrobe-footnote { margin-bottom: 0; }
+@media (max-width: 1250px) and (min-width: 761px) {
+  .wardrobe h2 { font-size: 25px; }
+  .era-library-button { padding: 9px; font-size: 13px; }
+  .era-library-button svg { width: 18px; height: 18px; }
+  .wardrobe-bottom > button { font-size: 14px; }
+}
+@media (max-width: 760px) {
+  .wardrobe h2 { font-size: 25px; }
+  .era-library-button { font-size: 13px; gap: 4px; padding: 8px 10px; }
+  .era-library-button svg { width: 18px; height: 18px; }
+  .collection-tag { font-size: 12px; margin: -5px 0 12px; }
+  .era-badge { font-size: 10px; top: 6px; left: 6px; }
+  .item-pager { gap: 8px; }
+  .item-pager button { min-width: 99px; min-height: 50px; padding: 8px 10px; font-size: 15px; scroll-margin-top: calc(var(--mobile-stage-height) + 185px); }
+  .item-name { font-size: 14px; }
+  .era-grid { grid-template-columns: repeat(2, minmax(0,1fr)); gap: 10px; }
+  .era-card { flex-direction: column; gap: 5px; padding: 10px; text-align: center; min-height: 190px; }
+  .era-card img { width: 85px; height: 105px; }
+  .era-card strong { font-size: 22px; }
+  .era-card small { font-size: 12px; }
+  .era-dialog { padding-left: 16px; padding-right: 16px; }
+  .filter-chip { font-size: 13px; }
+}

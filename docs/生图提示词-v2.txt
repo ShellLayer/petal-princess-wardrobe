@@ -1,0 +1,28 @@
+花间小公主 2.0 — 最终生成提示词
+方式：内置 image_gen 工具；两次均 transparent_background: true。
+
+1. 基础裙装编辑
+参考：assets/princesses-original.png
+输出：assets/princesses-base-v2-original.png
+
+Use case: precise-object-edit. Edit target: the attached 3-column by 2-row transparent sprite atlas of six princess dolls.
+This is a technical base layer for a dress-up game. Keep the exact 1086x1448 canvas, six cell positions, head and face positions, identity, facial features, skin, pose, body sizes, dress colors and all six existing gowns EXACTLY unchanged. Change ONLY two things on every doll:
+1. Remove ALL scalp hair and long flowing hair completely. Each doll must have a smooth bare head, normal ears and a complete neck. Reveal the parts of her modest dress and sleeves previously hidden behind the hair, matching the existing dress. No bangs, no side hair, no residual curls, no headwear.
+2. Remove the existing decorated slippers so all six dolls have matching plain bare feet at exactly the same location and scale as the old feet, with toes pointing forward. Keep ankles and hemlines where they were.
+Preserve the same premium delicate gouache and colored-pencil children's picture-book illustration, shading, existing faces, and realistic paper-like fine textile texture. Do not redesign or move the dresses. Do not add any items, hair, shadows, backdrop, floor, frames, grid lines, lettering or labels. This is a fully dressed innocent child-friendly doll, not a fashion photograph. Maintain genuinely transparent alpha all around the dolls and between limbs. Every doll fully inside the same atlas cell as in the reference.
+
+2. 六种独立发型
+参考：新的基础裙装图集和原版角色图集
+输出：assets/hairstyles-v2-original.png
+
+Use case: illustration-story. Production asset: SIX HAIR-ONLY overlays for a layered children's princess dress-up game.
+Image 1 is the precise alignment guide: a transparent 1086x1448 sprite atlas containing six bald dolls, 3 columns x 2 rows. Image 2 is a style reference for the beautiful original brown wavy hair. Output a genuinely transparent PNG with EXACTLY the same 1086x1448 canvas and six 362x724 cell layout as image 1. Each cell should contain ONLY one separate hairstyle, positioned exactly over the bald scalp of the guide doll in that cell, as if painting the hair on that doll and then hiding the entire doll.
+CRITICAL: no faces, skin, heads, necks, bodies, clothes, eyes, ears, accessories or shadows. Everything that is NOT HAIR must be completely transparent. Leave a clear transparent face opening so the eyes, forehead, cheeks, chin and neck of the underlying doll remain visible. Hair can partly cover the upper forehead like natural bangs, never cover the eyes. In each cell scalp top is around y=65, face center x=181 y=155, eyes at y=158, chin at y=211, neckline around y=235. Hair top around y=47. All six wigs fitted to exactly the same head size and pose. Hair stays wholly inside its own cell.
+Top left: chestnut brown long flowing curls, natural center part, falls to y=350 on both sides, match original reference hair.
+Top middle: warm dark chocolate brown two plump braids, center part with soft swept bangs, braids fall to y=330 at left and right.
+Top right: honey golden blonde short softly curled bob, gentle side part and airy bangs, rounded bob ends at y=240.
+Bottom left: dark espresso brown hair in two adorable round buns at top left and top right of head with soft natural side bangs, rest short, hair buns no higher than y=30.
+Bottom middle: auburn reddish chestnut hair in a high side ponytail flowing down right side to y=330, soft swept bangs, no ties or ornaments.
+Bottom right: silky midnight black long straight hair with softly curved ends to y=340 and neat wispy bangs ending above eyebrows.
+Style: premium children's picture-book gouache and colored pencil, richly detailed fine hair strands, soft dimensional highlights, graceful and natural, same painterly style as the reference. Hair silhouettes must be distinct, easily recognized by a small child. Real transparent alpha inside face openings and around hair. No labels, lines, frames, checkerboard or watermark. Output only the six hair overlays, not any dolls.
+

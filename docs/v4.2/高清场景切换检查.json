@@ -1,0 +1,114 @@
+{
+  "Chrome": {
+    "version": "157.0.8103.79",
+    "cpuSlowdown": 4,
+    "sceneChanges": [
+      {
+        "scene": 3,
+        "readyAndPaintMs": 63.8,
+        "nativeSize": [
+          1122,
+          1402
+        ]
+      },
+      {
+        "scene": 4,
+        "readyAndPaintMs": 46.9,
+        "nativeSize": [
+          1122,
+          1402
+        ]
+      },
+      {
+        "scene": 5,
+        "readyAndPaintMs": 64.6,
+        "nativeSize": [
+          1122,
+          1402
+        ]
+      },
+      {
+        "scene": 6,
+        "readyAndPaintMs": 64.6,
+        "nativeSize": [
+          1122,
+          1402
+        ]
+      },
+      {
+        "scene": 7,
+        "readyAndPaintMs": 64.6,
+        "nativeSize": [
+          1122,
+          1402
+        ]
+      },
+      {
+        "scene": 8,
+        "readyAndPaintMs": 65,
+        "nativeSize": [
+          1122,
+          1402
+        ]
+      }
+    ],
+    "photoReady": true,
+    "errors": []
+  },
+  "Edge": {
+    "version": "157.0.4341.46",
+    "cpuSlowdown": 4,
+    "sceneChanges": [
+      {
+        "scene": 3,
+        "readyAndPaintMs": 65.7,
+        "nativeSize": [
+          1122,
+          1402
+        ]
+      },
+      {
+        "scene": 4,
+        "readyAndPaintMs": 45.3,
+        "nativeSize": [
+          1122,
+          1402
+        ]
+      },
+      {
+        "scene": 5,
+        "readyAndPaintMs": 64.7,
+        "nativeSize": [
+          1122,
+          1402
+        ]
+      },
+      {
+        "scene": 6,
+        "readyAndPaintMs": 64.6,
+        "nativeSize": [
+          1122,
+          1402
+        ]
+      },
+      {
+        "scene": 7,
+        "readyAndPaintMs": 65.1,
+        "nativeSize": [
+          1122,
+          1402
+        ]
+      },
+      {
+        "scene": 8,
+        "readyAndPaintMs": 63.9,
+        "nativeSize": [
+          1122,
+          1402
+        ]
+      }
+    ],
+    "photoReady": true,
+    "errors": []
+  }
+}

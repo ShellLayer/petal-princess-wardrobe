@@ -1,0 +1,60 @@
+{
+  "Chrome": {
+    "version": "157.0.8103.79",
+    "cpuSlowdown": 4,
+    "firstPayloadBytes": 560869,
+    "changes": [
+      {
+        "action": "商周·云纹衣裳",
+        "readyAndPaintMs": 140.7
+      },
+      {
+        "action": "衣裳颜色：晴蓝",
+        "readyAndPaintMs": 101.3
+      },
+      {
+        "action": "灵巧双环髻",
+        "readyAndPaintMs": 41.7
+      },
+      {
+        "action": "发型颜色：银灰",
+        "readyAndPaintMs": 75.7
+      },
+      {
+        "action": "桃花淡颊",
+        "readyAndPaintMs": 46.2
+      }
+    ],
+    "photoReady": true,
+    "errors": []
+  },
+  "Edge": {
+    "version": "157.0.4341.46",
+    "cpuSlowdown": 4,
+    "firstPayloadBytes": 560869,
+    "changes": [
+      {
+        "action": "商周·云纹衣裳",
+        "readyAndPaintMs": 111.8
+      },
+      {
+        "action": "衣裳颜色：晴蓝",
+        "readyAndPaintMs": 102.4
+      },
+      {
+        "action": "灵巧双环髻",
+        "readyAndPaintMs": 40.9
+      },
+      {
+        "action": "发型颜色：银灰",
+        "readyAndPaintMs": 87.4
+      },
+      {
+        "action": "桃花淡颊",
+        "readyAndPaintMs": 46.3
+      }
+    ],
+    "photoReady": true,
+    "errors": []
+  }
+}

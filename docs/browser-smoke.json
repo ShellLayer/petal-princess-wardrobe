@@ -1,0 +1,32 @@
+{
+  "Chrome": {
+    "version": "157.0.8103.79",
+    "cpuSlowdown": 4,
+    "hairstylePaintMs": [
+      75.6,
+      20.9,
+      32.1,
+      31.5,
+      32.1,
+      31.9
+    ],
+    "payloadBytes": 1126590,
+    "allLayersPhotoReady": true,
+    "errors": []
+  },
+  "Edge": {
+    "version": "157.0.4341.46",
+    "cpuSlowdown": 4,
+    "hairstylePaintMs": [
+      69.1,
+      25.1,
+      32.4,
+      32.4,
+      32.4,
+      32.3
+    ],
+    "payloadBytes": 1126590,
+    "allLayersPhotoReady": true,
+    "errors": []
+  }
+}

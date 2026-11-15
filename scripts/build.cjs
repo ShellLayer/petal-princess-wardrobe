@@ -1,0 +1,28 @@
+const fs = require('node:fs');
+const path = require('node:path');
+const vm = require('node:vm');
+const root = path.resolve(__dirname, '..');
+const read = (file) => fs.readFileSync(path.join(root, file), 'utf8');
+const image = (file) => 'data:image/webp;base64,' + fs.readFileSync(path.join(root, file)).toString('base64');
+const manifest = JSON.parse(read('asset-manifest.json'));
+const context={window:{}};vm.createContext(context);
+vm.runInContext(read('game-data.js'),context);
+const originalCounts=Object.fromEntries(context.window.PrincessData.categories.map(({id})=>[id,context.window.PrincessData[id].length]));
+vm.runInContext(read('ancient-data.js'),context);
+const previousCounts=Object.fromEntries(context.window.PrincessData.categories.map(({id})=>[id,context.window.PrincessData[id].length]));
+vm.runInContext(read('beauty-data.js'),context);
+vm.runInContext(read('fitting-data.js'),context);
+const data=context.window.PrincessData;
+for(const [kind,asset] of [['dress','garments'],['hair','hair'],['scene','scenes']])if(data[kind].length!==manifest[asset].length)throw new Error(`${kind} catalog does not match its images.`);
+if(manifest.dresses.length!==data.dress.length||manifest.hairstyles.length!==data.hair.length)throw new Error('Thumbnail catalog does not match.');
+const assets = Object.fromEntries(Object.entries(manifest).map(([key, value]) => [key, Array.isArray(value) ? value.map(image) : image(value)]));
+const css = ['styles.css','large-play.css','ancient-play.css','beauty-play.css'].map(read).join('\n').replace("url('assets/princesses.webp')", 'none').replace("url('assets/scenes.webp')", 'none');
+const script = `window.PRINCESS_ASSETS=${JSON.stringify(assets)};\n${['game-data.js','ancient-data.js','beauty-data.js','fitting-data.js','character-renderer.js','app.js'].map(read).join('\n')}`.replace(/<\/script/gi, '<\\/script');
+const source = read('index.html');
+const html = source.replace('<link rel="stylesheet" href="styles.css">', `<style>${css}</style>`).replace(/\s*<link rel="stylesheet" href="(?:large-play|ancient-play|beauty-play)\.css">/g, '').replace(/\s*<script src="(?:assets|game-data|ancient-data|beauty-data|fitting-data|character-renderer|app)\.js" defer><\/script>/g, '').replace('</body>', `<script>${script}</script>\n</body>`);
+const output = path.join(root, '花间小公主.html');
+fs.writeFileSync(output, html, 'utf8');
+const catalog={version:JSON.parse(read('package.json')).version,comparisonBaseline:'3.0.0',date:'2026-11-14',totalOptions:0,newOptions:0,historicalInspiredGarments:data.dress.filter((item,index)=>index>=originalCounts.dress&&item.group!=='myth').length,mythInspiredGarments:data.dress.filter((item,index)=>index>=originalCounts.dress&&item.group==='myth').length,rig:data.rig,colorPalettes:data.colorPalettes,categories:{},groups:data.groups};
+for(const {id,name} of data.categories){const old=previousCounts[id]||0;catalog.totalOptions+=data[id].length;catalog.newOptions+=data[id].length-old;catalog.categories[id]={name,count:data[id].length,newCount:data[id].length-old,items:data[id].map((item,index)=>({index,...item}))};}
+fs.writeFileSync(path.join(root,'docs/v4.2/素材清单.json'),JSON.stringify(catalog,null,2)+'\n');
+console.log(`已生成单文件离线版：${output} (${(Buffer.byteLength(html) / 1024 / 1024).toFixed(2)} MB)`);

@@ -1,0 +1,318 @@
+{
+  "head": [
+    {
+      "index": 0,
+      "skinPixels": 12577
+    },
+    {
+      "index": 1,
+      "skinPixels": 12255
+    },
+    {
+      "index": 2,
+      "skinPixels": 12874
+    },
+    {
+      "index": 3,
+      "skinPixels": 12825
+    },
+    {
+      "index": 4,
+      "skinPixels": 12539
+    },
+    {
+      "index": 5,
+      "skinPixels": 13324
+    },
+    {
+      "index": 6,
+      "skinPixels": 13982
+    },
+    {
+      "index": 7,
+      "skinPixels": 13989
+    },
+    {
+      "index": 8,
+      "skinPixels": 14109
+    },
+    {
+      "index": 9,
+      "skinPixels": 14054
+    },
+    {
+      "index": 10,
+      "skinPixels": 13928
+    },
+    {
+      "index": 11,
+      "skinPixels": 14240
+    },
+    {
+      "index": 12,
+      "skinPixels": 13891
+    },
+    {
+      "index": 13,
+      "skinPixels": 13572
+    },
+    {
+      "index": 14,
+      "skinPixels": 13975
+    },
+    {
+      "index": 15,
+      "skinPixels": 13685
+    },
+    {
+      "index": 16,
+      "skinPixels": 13691
+    },
+    {
+      "index": 17,
+      "skinPixels": 13994
+    },
+    {
+      "index": 18,
+      "skinPixels": 12810
+    },
+    {
+      "index": 19,
+      "skinPixels": 12858
+    },
+    {
+      "index": 20,
+      "skinPixels": 12204
+    },
+    {
+      "index": 21,
+      "skinPixels": 12813
+    },
+    {
+      "index": 22,
+      "skinPixels": 12602
+    },
+    {
+      "index": 23,
+      "skinPixels": 12777
+    },
+    {
+      "index": 24,
+      "skinPixels": 13350
+    },
+    {
+      "index": 25,
+      "skinPixels": 13579
+    },
+    {
+      "index": 26,
+      "skinPixels": 12165
+    },
+    {
+      "index": 27,
+      "skinPixels": 13944
+    },
+    {
+      "index": 28,
+      "skinPixels": 12485
+    },
+    {
+      "index": 29,
+      "skinPixels": 13920
+    }
+  ],
+  "garment": [
+    {
+      "index": 0,
+      "skinPixels": 5348
+    },
+    {
+      "index": 1,
+      "skinPixels": 5266
+    },
+    {
+      "index": 2,
+      "skinPixels": 5018
+    },
+    {
+      "index": 3,
+      "skinPixels": 5249
+    },
+    {
+      "index": 4,
+      "skinPixels": 5221
+    },
+    {
+      "index": 5,
+      "skinPixels": 5319
+    },
+    {
+      "index": 6,
+      "skinPixels": 3388
+    },
+    {
+      "index": 7,
+      "skinPixels": 3265
+    },
+    {
+      "index": 8,
+      "skinPixels": 2935
+    },
+    {
+      "index": 9,
+      "skinPixels": 3005
+    },
+    {
+      "index": 10,
+      "skinPixels": 3445
+    },
+    {
+      "index": 11,
+      "skinPixels": 3149
+    },
+    {
+      "index": 12,
+      "skinPixels": 3580
+    },
+    {
+      "index": 13,
+      "skinPixels": 3343
+    },
+    {
+      "index": 14,
+      "skinPixels": 3418
+    },
+    {
+      "index": 15,
+      "skinPixels": 4413
+    },
+    {
+      "index": 16,
+      "skinPixels": 3520
+    },
+    {
+      "index": 17,
+      "skinPixels": 3387
+    },
+    {
+      "index": 18,
+      "skinPixels": 3577
+    },
+    {
+      "index": 19,
+      "skinPixels": 3868
+    },
+    {
+      "index": 20,
+      "skinPixels": 3334
+    },
+    {
+      "index": 21,
+      "skinPixels": 3590
+    },
+    {
+      "index": 22,
+      "skinPixels": 3396
+    },
+    {
+      "index": 23,
+      "skinPixels": 3442
+    },
+    {
+      "index": 24,
+      "skinPixels": 3496
+    },
+    {
+      "index": 25,
+      "skinPixels": 3723
+    },
+    {
+      "index": 26,
+      "skinPixels": 3419
+    },
+    {
+      "index": 27,
+      "skinPixels": 3389
+    },
+    {
+      "index": 28,
+      "skinPixels": 3352
+    },
+    {
+      "index": 29,
+      "skinPixels": 3424
+    },
+    {
+      "index": 30,
+      "skinPixels": 3430
+    },
+    {
+      "index": 31,
+      "skinPixels": 3975
+    },
+    {
+      "index": 32,
+      "skinPixels": 3698
+    },
+    {
+      "index": 33,
+      "skinPixels": 2994
+    },
+    {
+      "index": 34,
+      "skinPixels": 3421
+    },
+    {
+      "index": 35,
+      "skinPixels": 3680
+    },
+    {
+      "index": 36,
+      "skinPixels": 3122
+    },
+    {
+      "index": 37,
+      "skinPixels": 3155
+    },
+    {
+      "index": 38,
+      "skinPixels": 2954
+    },
+    {
+      "index": 39,
+      "skinPixels": 3009
+    },
+    {
+      "index": 40,
+      "skinPixels": 3188
+    },
+    {
+      "index": 41,
+      "skinPixels": 3036
+    },
+    {
+      "index": 42,
+      "skinPixels": 3163
+    },
+    {
+      "index": 43,
+      "skinPixels": 3315
+    },
+    {
+      "index": 44,
+      "skinPixels": 3269
+    },
+    {
+      "index": 45,
+      "skinPixels": 2975
+    },
+    {
+      "index": 46,
+      "skinPixels": 3420
+    },
+    {
+      "index": 47,
+      "skinPixels": 3611
+    }
+  ]
+}

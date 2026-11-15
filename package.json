@@ -1,0 +1,27 @@
+{
+  "name": "petal-princess-wardrobe",
+  "version": "4.2.0",
+  "private": true,
+  "license": "MIT",
+  "author": "ShellLayer",
+  "repository": "github:ShellLayer/petal-princess-wardrobe",
+  "homepage": "https://shelllayer.github.io/petal-princess-wardrobe/",
+  "bugs": "https://github.com/ShellLayer/petal-princess-wardrobe/issues",
+  "description": "花间小公主：为幼儿设计的轻量离线换装游戏",
+  "scripts": {
+    "start": "node server.cjs",
+    "assets:base": "node scripts/prepare-v4-assets.cjs",
+    "assets:scenes": "node scripts/prepare-hd-scenes.cjs",
+    "assets": "node scripts/prepare-fitting-assets.cjs",
+    "build": "node scripts/build.cjs",
+    "build:site": "npm run build && node scripts/build-site.cjs",
+    "test": "playwright test"
+  },
+  "engines": {
+    "node": ">=20.9"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.65.1",
+    "sharp": "^0.35.5"
+  }
+}

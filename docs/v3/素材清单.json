@@ -1,0 +1,1625 @@
+{
+  "version": "3.0.0",
+  "date": "2026-11-14",
+  "totalOptions": 192,
+  "newOptions": 147,
+  "historicalInspiredGarments": 28,
+  "mythInspiredGarments": 2,
+  "rig": {
+    "width": 362,
+    "height": 724,
+    "footX": [
+      161,
+      201
+    ],
+    "shoeY": 657,
+    "soleY": 681,
+    "garmentTop": 214,
+    "garmentBottom": 640
+  },
+  "categories": {
+    "dress": {
+      "name": "衣裳",
+      "count": 36,
+      "newCount": 30,
+      "items": [
+        {
+          "index": 0,
+          "name": "玫瑰公主裙",
+          "color": "#fbf0ef",
+          "era": "童话",
+          "group": "fairytale"
+        },
+        {
+          "index": 1,
+          "name": "云朵蓝纱裙",
+          "color": "#eff3f6",
+          "era": "童话",
+          "group": "fairytale"
+        },
+        {
+          "index": 2,
+          "name": "月光紫罗裙",
+          "color": "#f1edf7",
+          "era": "童话",
+          "group": "fairytale"
+        },
+        {
+          "index": 3,
+          "name": "暖阳雏菊裙",
+          "color": "#fcf5e8",
+          "era": "童话",
+          "group": "fairytale"
+        },
+        {
+          "index": 4,
+          "name": "森林精灵裙",
+          "color": "#eef1e7",
+          "era": "童话",
+          "group": "fairytale"
+        },
+        {
+          "index": 5,
+          "name": "蜜桃蝴蝶裙",
+          "color": "#fcf0e8",
+          "era": "童话",
+          "group": "fairytale"
+        },
+        {
+          "index": 6,
+          "name": "商周·云纹衣裳",
+          "era": "商周",
+          "group": "preqin",
+          "color": "#f8eee2",
+          "kind": 0
+        },
+        {
+          "index": 7,
+          "name": "春秋·青黛衣裳",
+          "era": "春秋",
+          "group": "preqin",
+          "color": "#eaf1e7",
+          "kind": 0
+        },
+        {
+          "index": 8,
+          "name": "战国·楚韵长衣",
+          "era": "战国",
+          "group": "preqin",
+          "color": "#f8e8e5",
+          "kind": 0
+        },
+        {
+          "index": 9,
+          "name": "秦风·玄色长袍",
+          "era": "秦",
+          "group": "qinhan",
+          "color": "#eaf1f5",
+          "kind": 0
+        },
+        {
+          "index": 10,
+          "name": "西汉·云气曲裾",
+          "era": "西汉",
+          "group": "qinhan",
+          "color": "#f2ecf8",
+          "kind": 0
+        },
+        {
+          "index": 11,
+          "name": "东汉·兰芽襦裙",
+          "era": "东汉",
+          "group": "qinhan",
+          "color": "#fcf2dd",
+          "kind": 0
+        },
+        {
+          "index": 12,
+          "name": "三国·紫苏襦裙",
+          "era": "三国",
+          "group": "weijin",
+          "color": "#f8eee2",
+          "kind": 0
+        },
+        {
+          "index": 13,
+          "name": "西晋·竹影宽袖",
+          "era": "西晋",
+          "group": "weijin",
+          "color": "#eaf1e7",
+          "kind": 0
+        },
+        {
+          "index": 14,
+          "name": "东晋·清风衣裙",
+          "era": "东晋",
+          "group": "weijin",
+          "color": "#f8e8e5",
+          "kind": 0
+        },
+        {
+          "index": 15,
+          "name": "南朝·流霞杂裾",
+          "era": "南朝",
+          "group": "northsouth",
+          "color": "#eaf1f5",
+          "kind": 0
+        },
+        {
+          "index": 16,
+          "name": "北魏·云纹袍裙",
+          "era": "北魏",
+          "group": "northsouth",
+          "color": "#f2ecf8",
+          "kind": 0
+        },
+        {
+          "index": 17,
+          "name": "北齐·间色长裙",
+          "era": "北齐",
+          "group": "northsouth",
+          "color": "#fcf2dd",
+          "kind": 0
+        },
+        {
+          "index": 18,
+          "name": "隋·杏雨间色裙",
+          "era": "隋",
+          "group": "suitang",
+          "color": "#f8eee2",
+          "kind": 0
+        },
+        {
+          "index": 19,
+          "name": "初唐·半臂春衫",
+          "era": "初唐",
+          "group": "suitang",
+          "color": "#eaf1e7",
+          "kind": 0
+        },
+        {
+          "index": 20,
+          "name": "盛唐·海棠高腰裙",
+          "era": "盛唐",
+          "group": "suitang",
+          "color": "#f8e8e5",
+          "kind": 0
+        },
+        {
+          "index": 21,
+          "name": "晚唐·月白大袖",
+          "era": "晚唐",
+          "group": "suitang",
+          "color": "#eaf1f5",
+          "kind": 0
+        },
+        {
+          "index": 22,
+          "name": "五代·烟霞衣裙",
+          "era": "五代",
+          "group": "suitang",
+          "color": "#f2ecf8",
+          "kind": 0
+        },
+        {
+          "index": 23,
+          "name": "敦煌·莲华舞衣",
+          "era": "神话",
+          "group": "myth",
+          "color": "#fcf2dd",
+          "kind": 0
+        },
+        {
+          "index": 24,
+          "name": "北宋·茶青褙子",
+          "era": "北宋",
+          "group": "songyuan",
+          "color": "#f8eee2",
+          "kind": 0
+        },
+        {
+          "index": 25,
+          "name": "南宋·桂香罗衫",
+          "era": "南宋",
+          "group": "songyuan",
+          "color": "#eaf1e7",
+          "kind": 0
+        },
+        {
+          "index": 26,
+          "name": "辽·雁锦长袍",
+          "era": "辽",
+          "group": "songyuan",
+          "color": "#f8e8e5",
+          "kind": 0
+        },
+        {
+          "index": 27,
+          "name": "西夏·沙柳衣裙",
+          "era": "西夏",
+          "group": "songyuan",
+          "color": "#eaf1f5",
+          "kind": 0
+        },
+        {
+          "index": 28,
+          "name": "金·紫金袍裙",
+          "era": "金",
+          "group": "songyuan",
+          "color": "#f2ecf8",
+          "kind": 0
+        },
+        {
+          "index": 29,
+          "name": "元·云锦腰线袍",
+          "era": "元",
+          "group": "songyuan",
+          "color": "#fcf2dd",
+          "kind": 0
+        },
+        {
+          "index": 30,
+          "name": "明·兰庭袄裙",
+          "era": "明",
+          "group": "mingqing",
+          "color": "#f8eee2",
+          "kind": 0
+        },
+        {
+          "index": 31,
+          "name": "明·桃夭马面裙",
+          "era": "明",
+          "group": "mingqing",
+          "color": "#eaf1e7",
+          "kind": 0
+        },
+        {
+          "index": 32,
+          "name": "明·葵花比甲",
+          "era": "明",
+          "group": "mingqing",
+          "color": "#f8e8e5",
+          "kind": 0
+        },
+        {
+          "index": 33,
+          "name": "清·玉兰旗装",
+          "era": "清·旗装",
+          "group": "mingqing",
+          "color": "#eaf1f5",
+          "kind": 0
+        },
+        {
+          "index": 34,
+          "name": "清·海棠袄裙",
+          "era": "清·汉女",
+          "group": "mingqing",
+          "color": "#f2ecf8",
+          "kind": 0
+        },
+        {
+          "index": 35,
+          "name": "嫦娥·桂月仙裙",
+          "era": "神话",
+          "group": "myth",
+          "color": "#fcf2dd",
+          "kind": 0
+        }
+      ]
+    },
+    "shoes": {
+      "name": "鞋子",
+      "count": 24,
+      "newCount": 18,
+      "items": [
+        {
+          "index": 0,
+          "name": "玫瑰蝴蝶鞋",
+          "color": "#faeaf0",
+          "era": "童话",
+          "group": "fairytale"
+        },
+        {
+          "index": 1,
+          "name": "蓝色水晶鞋",
+          "color": "#eaf2f8",
+          "era": "童话",
+          "group": "fairytale"
+        },
+        {
+          "index": 2,
+          "name": "奶油珍珠鞋",
+          "color": "#fbf5e8",
+          "era": "童话",
+          "group": "fairytale"
+        },
+        {
+          "index": 3,
+          "name": "金色星星鞋",
+          "color": "#fbf1d9",
+          "era": "童话",
+          "group": "fairytale"
+        },
+        {
+          "index": 4,
+          "name": "森林叶子鞋",
+          "color": "#eef3e5",
+          "era": "童话",
+          "group": "fairytale"
+        },
+        {
+          "index": 5,
+          "name": "紫色芭蕾鞋",
+          "color": "#f3ecf8",
+          "era": "童话",
+          "group": "fairytale"
+        },
+        {
+          "index": 6,
+          "name": "素绢圆头履",
+          "era": "秦汉",
+          "group": "ancient",
+          "color": "#f8eee2",
+          "kind": 0
+        },
+        {
+          "index": 7,
+          "name": "云纹翘头履",
+          "era": "汉唐",
+          "group": "ancient",
+          "color": "#eaf1e7",
+          "kind": 1
+        },
+        {
+          "index": 8,
+          "name": "青竹软底履",
+          "era": "古风",
+          "group": "ancient",
+          "color": "#f8e8e5",
+          "kind": 0
+        },
+        {
+          "index": 9,
+          "name": "桃花绣鞋",
+          "era": "古风",
+          "group": "ancient",
+          "color": "#eaf1f5",
+          "kind": 3
+        },
+        {
+          "index": 10,
+          "name": "莲瓣锦鞋",
+          "era": "古风",
+          "group": "ancient",
+          "color": "#f2ecf8",
+          "kind": 1
+        },
+        {
+          "index": 11,
+          "name": "桂花绣鞋",
+          "era": "古风",
+          "group": "ancient",
+          "color": "#fcf2dd",
+          "kind": 3
+        },
+        {
+          "index": 12,
+          "name": "辽风锦童靴",
+          "era": "辽风",
+          "group": "ancient",
+          "color": "#f8eee2",
+          "kind": 2
+        },
+        {
+          "index": 13,
+          "name": "草原织锦靴",
+          "era": "草原",
+          "group": "ancient",
+          "color": "#eaf1e7",
+          "kind": 2
+        },
+        {
+          "index": 14,
+          "name": "元风云纹靴",
+          "era": "元风",
+          "group": "ancient",
+          "color": "#f8e8e5",
+          "kind": 2
+        },
+        {
+          "index": 15,
+          "name": "月白绢履",
+          "era": "古风",
+          "group": "ancient",
+          "color": "#eaf1f5",
+          "kind": 0
+        },
+        {
+          "index": 16,
+          "name": "朱砂如意履",
+          "era": "古风",
+          "group": "ancient",
+          "color": "#f2ecf8",
+          "kind": 1
+        },
+        {
+          "index": 17,
+          "name": "海棠花鞋",
+          "era": "古风",
+          "group": "ancient",
+          "color": "#fcf2dd",
+          "kind": 3
+        },
+        {
+          "index": 18,
+          "name": "明风兰草鞋",
+          "era": "明风",
+          "group": "ancient",
+          "color": "#f8eee2",
+          "kind": 3
+        },
+        {
+          "index": 19,
+          "name": "清风软绣鞋",
+          "era": "清风",
+          "group": "ancient",
+          "color": "#eaf1e7",
+          "kind": 3
+        },
+        {
+          "index": 20,
+          "name": "儿童虎头鞋",
+          "era": "童趣",
+          "group": "ancient",
+          "color": "#f8e8e5",
+          "kind": 4
+        },
+        {
+          "index": 21,
+          "name": "锦鲤绣花鞋",
+          "era": "节令",
+          "group": "ancient",
+          "color": "#eaf1f5",
+          "kind": 3
+        },
+        {
+          "index": 22,
+          "name": "金线云头履",
+          "era": "古风",
+          "group": "ancient",
+          "color": "#f2ecf8",
+          "kind": 1
+        },
+        {
+          "index": 23,
+          "name": "踏雪暖绒靴",
+          "era": "冬日",
+          "group": "ancient",
+          "color": "#fcf2dd",
+          "kind": 2
+        }
+      ]
+    },
+    "hair": {
+      "name": "发型",
+      "count": 18,
+      "newCount": 12,
+      "items": [
+        {
+          "index": 0,
+          "name": "栗色长卷发",
+          "color": "#f7eee4",
+          "era": "童话",
+          "group": "fairytale"
+        },
+        {
+          "index": 1,
+          "name": "巧克力双辫",
+          "color": "#f3ece5",
+          "era": "童话",
+          "group": "fairytale"
+        },
+        {
+          "index": 2,
+          "name": "金色小短发",
+          "color": "#fcf3dc",
+          "era": "童话",
+          "group": "fairytale"
+        },
+        {
+          "index": 3,
+          "name": "可爱丸子头",
+          "color": "#f5ece4",
+          "era": "童话",
+          "group": "fairytale"
+        },
+        {
+          "index": 4,
+          "name": "蜜糖高马尾",
+          "color": "#faede1",
+          "era": "童话",
+          "group": "fairytale"
+        },
+        {
+          "index": 5,
+          "name": "黑亮长直发",
+          "color": "#efeeee",
+          "era": "童话",
+          "group": "fairytale"
+        },
+        {
+          "index": 6,
+          "name": "墨色双丫髻",
+          "era": "古风",
+          "group": "ancient",
+          "color": "#f8eee2",
+          "kind": 0
+        },
+        {
+          "index": 7,
+          "name": "灵巧双环髻",
+          "era": "古风",
+          "group": "ancient",
+          "color": "#eaf1e7",
+          "kind": 0
+        },
+        {
+          "index": 8,
+          "name": "清雅低绾髻",
+          "era": "古风",
+          "group": "ancient",
+          "color": "#f8e8e5",
+          "kind": 0
+        },
+        {
+          "index": 9,
+          "name": "小小单螺髻",
+          "era": "古风",
+          "group": "ancient",
+          "color": "#eaf1f5",
+          "kind": 0
+        },
+        {
+          "index": 10,
+          "name": "垂辫双髻",
+          "era": "古风",
+          "group": "ancient",
+          "color": "#f2ecf8",
+          "kind": 0
+        },
+        {
+          "index": 11,
+          "name": "飞仙双鬟",
+          "era": "神话",
+          "group": "ancient",
+          "color": "#fcf2dd",
+          "kind": 0
+        },
+        {
+          "index": 12,
+          "name": "双螺小发髻",
+          "era": "古风",
+          "group": "ancient",
+          "color": "#f8eee2",
+          "kind": 0
+        },
+        {
+          "index": 13,
+          "name": "轻垂双鬟",
+          "era": "古风",
+          "group": "ancient",
+          "color": "#eaf1e7",
+          "kind": 0
+        },
+        {
+          "index": 14,
+          "name": "三环小高髻",
+          "era": "古风",
+          "group": "ancient",
+          "color": "#f8e8e5",
+          "kind": 0
+        },
+        {
+          "index": 15,
+          "name": "宋韵低髻",
+          "era": "宋风",
+          "group": "ancient",
+          "color": "#eaf1f5",
+          "kind": 0
+        },
+        {
+          "index": 16,
+          "name": "明韵盘髻",
+          "era": "明风",
+          "group": "ancient",
+          "color": "#f2ecf8",
+          "kind": 0
+        },
+        {
+          "index": 17,
+          "name": "清韵辫髻",
+          "era": "清风",
+          "group": "ancient",
+          "color": "#fcf2dd",
+          "kind": 0
+        }
+      ]
+    },
+    "headwear": {
+      "name": "头饰",
+      "count": 30,
+      "newCount": 24,
+      "items": [
+        {
+          "index": 0,
+          "name": "轻轻摘下来",
+          "color": "#f5f1e9",
+          "era": "童话",
+          "group": "fairytale"
+        },
+        {
+          "index": 1,
+          "name": "珍珠小王冠",
+          "color": "#fbf3df",
+          "era": "童话",
+          "group": "fairytale"
+        },
+        {
+          "index": 2,
+          "name": "玫瑰小花环",
+          "color": "#fbf0ef",
+          "era": "童话",
+          "group": "fairytale"
+        },
+        {
+          "index": 3,
+          "name": "星星小皇冠",
+          "color": "#eef3fa",
+          "era": "童话",
+          "group": "fairytale"
+        },
+        {
+          "index": 4,
+          "name": "紫色蝴蝶结",
+          "color": "#f2eef7",
+          "era": "童话",
+          "group": "fairytale"
+        },
+        {
+          "index": 5,
+          "name": "雏菊小发箍",
+          "color": "#f9f4e6",
+          "era": "童话",
+          "group": "fairytale"
+        },
+        {
+          "index": 6,
+          "name": "白玉兰簪",
+          "era": "古风",
+          "group": "ancient",
+          "color": "#f8eee2",
+          "kind": 0
+        },
+        {
+          "index": 7,
+          "name": "碧玉双钗",
+          "era": "古风",
+          "group": "ancient",
+          "color": "#eaf1e7",
+          "kind": 0
+        },
+        {
+          "index": 8,
+          "name": "桃花步摇",
+          "era": "古风",
+          "group": "ancient",
+          "color": "#f8e8e5",
+          "kind": 0
+        },
+        {
+          "index": 9,
+          "name": "金叶步摇",
+          "era": "古风",
+          "group": "ancient",
+          "color": "#eaf1f5",
+          "kind": 0
+        },
+        {
+          "index": 10,
+          "name": "珠翠小冠",
+          "era": "古风",
+          "group": "ancient",
+          "color": "#f2ecf8",
+          "kind": 0
+        },
+        {
+          "index": 11,
+          "name": "莲花额饰",
+          "era": "古风",
+          "group": "ancient",
+          "color": "#fcf2dd",
+          "kind": 0
+        },
+        {
+          "index": 12,
+          "name": "红梅发簪",
+          "era": "古风",
+          "group": "ancient",
+          "color": "#f8eee2",
+          "kind": 0
+        },
+        {
+          "index": 13,
+          "name": "竹叶银簪",
+          "era": "古风",
+          "group": "ancient",
+          "color": "#eaf1e7",
+          "kind": 0
+        },
+        {
+          "index": 14,
+          "name": "桂花绒花",
+          "era": "古风",
+          "group": "ancient",
+          "color": "#f8e8e5",
+          "kind": 0
+        },
+        {
+          "index": 15,
+          "name": "牡丹花钗",
+          "era": "古风",
+          "group": "ancient",
+          "color": "#eaf1f5",
+          "kind": 0
+        },
+        {
+          "index": 16,
+          "name": "小兔绒花",
+          "era": "童趣",
+          "group": "ancient",
+          "color": "#f2ecf8",
+          "kind": 0
+        },
+        {
+          "index": 17,
+          "name": "祥瑞虎头帽",
+          "era": "童趣",
+          "group": "ancient",
+          "color": "#fcf2dd",
+          "kind": 0
+        },
+        {
+          "index": 18,
+          "name": "锦绒小花球",
+          "era": "古风",
+          "group": "ancient",
+          "color": "#f8eee2",
+          "kind": 0
+        },
+        {
+          "index": 19,
+          "name": "锦缎发带",
+          "era": "古风",
+          "group": "ancient",
+          "color": "#eaf1e7",
+          "kind": 0
+        },
+        {
+          "index": 20,
+          "name": "蝶恋花额饰",
+          "era": "古风",
+          "group": "ancient",
+          "color": "#f8e8e5",
+          "kind": 0
+        },
+        {
+          "index": 21,
+          "name": "宋风珠冠",
+          "era": "宋风",
+          "group": "ancient",
+          "color": "#eaf1f5",
+          "kind": 0
+        },
+        {
+          "index": 22,
+          "name": "明风凤钗",
+          "era": "明风",
+          "group": "ancient",
+          "color": "#f2ecf8",
+          "kind": 0
+        },
+        {
+          "index": 23,
+          "name": "双燕金簪",
+          "era": "古风",
+          "group": "ancient",
+          "color": "#fcf2dd",
+          "kind": 0
+        },
+        {
+          "index": 24,
+          "name": "云纹小冠",
+          "era": "古风",
+          "group": "ancient",
+          "color": "#f8eee2",
+          "kind": 0
+        },
+        {
+          "index": 25,
+          "name": "莲瓣小帽",
+          "era": "古风",
+          "group": "ancient",
+          "color": "#eaf1e7",
+          "kind": 0
+        },
+        {
+          "index": 26,
+          "name": "盘长发结",
+          "era": "古风",
+          "group": "ancient",
+          "color": "#f8e8e5",
+          "kind": 0
+        },
+        {
+          "index": 27,
+          "name": "海棠花簪",
+          "era": "古风",
+          "group": "ancient",
+          "color": "#eaf1f5",
+          "kind": 0
+        },
+        {
+          "index": 28,
+          "name": "珍珠流苏",
+          "era": "古风",
+          "group": "ancient",
+          "color": "#f2ecf8",
+          "kind": 0
+        },
+        {
+          "index": 29,
+          "name": "小鹿绒角",
+          "era": "神话",
+          "group": "ancient",
+          "color": "#fcf2dd",
+          "kind": 0
+        }
+      ]
+    },
+    "mask": {
+      "name": "面罩",
+      "count": 18,
+      "newCount": 12,
+      "items": [
+        {
+          "index": 0,
+          "name": "不戴面罩",
+          "color": "#f5f1e9",
+          "era": "童话",
+          "group": "fairytale"
+        },
+        {
+          "index": 1,
+          "name": "蝴蝶舞会面罩",
+          "color": "#faeaf2",
+          "era": "童话",
+          "group": "fairytale"
+        },
+        {
+          "index": 2,
+          "name": "小猫咪面罩",
+          "color": "#faf0e4",
+          "era": "童话",
+          "group": "fairytale"
+        },
+        {
+          "index": 3,
+          "name": "星星舞会面罩",
+          "color": "#edf3fa",
+          "era": "童话",
+          "group": "fairytale"
+        },
+        {
+          "index": 4,
+          "name": "小兔兔面罩",
+          "color": "#fcf4ec",
+          "era": "童话",
+          "group": "fairytale"
+        },
+        {
+          "index": 5,
+          "name": "月亮舞会面罩",
+          "color": "#f1ecf8",
+          "era": "童话",
+          "group": "fairytale"
+        },
+        {
+          "index": 6,
+          "name": "瑞兔月宫面罩",
+          "era": "节令",
+          "group": "ancient",
+          "color": "#f8eee2",
+          "kind": 0
+        },
+        {
+          "index": 7,
+          "name": "小狮迎春面罩",
+          "era": "节令",
+          "group": "ancient",
+          "color": "#eaf1e7",
+          "kind": 0
+        },
+        {
+          "index": 8,
+          "name": "锦鲤戏水面罩",
+          "era": "节令",
+          "group": "ancient",
+          "color": "#f8e8e5",
+          "kind": 0
+        },
+        {
+          "index": 9,
+          "name": "荷莲花瓣面罩",
+          "era": "节令",
+          "group": "ancient",
+          "color": "#eaf1f5",
+          "kind": 0
+        },
+        {
+          "index": 10,
+          "name": "青云小龙面罩",
+          "era": "神话",
+          "group": "ancient",
+          "color": "#f2ecf8",
+          "kind": 0
+        },
+        {
+          "index": 11,
+          "name": "熊猫竹影面罩",
+          "era": "童趣",
+          "group": "ancient",
+          "color": "#fcf2dd",
+          "kind": 0
+        },
+        {
+          "index": 12,
+          "name": "丹顶鹤羽面罩",
+          "era": "神话",
+          "group": "ancient",
+          "color": "#f8eee2",
+          "kind": 0
+        },
+        {
+          "index": 13,
+          "name": "玄鸟云纹面罩",
+          "era": "古风",
+          "group": "ancient",
+          "color": "#eaf1e7",
+          "kind": 0
+        },
+        {
+          "index": 14,
+          "name": "祥瑞虎头面罩",
+          "era": "节令",
+          "group": "ancient",
+          "color": "#f8e8e5",
+          "kind": 0
+        },
+        {
+          "index": 15,
+          "name": "灵鹿花枝面罩",
+          "era": "神话",
+          "group": "ancient",
+          "color": "#eaf1f5",
+          "kind": 0
+        },
+        {
+          "index": 16,
+          "name": "彩蝶绣纹面罩",
+          "era": "节令",
+          "group": "ancient",
+          "color": "#f2ecf8",
+          "kind": 0
+        },
+        {
+          "index": 17,
+          "name": "童趣戏曲面罩",
+          "era": "戏曲",
+          "group": "ancient",
+          "color": "#fcf2dd",
+          "kind": 0
+        }
+      ]
+    },
+    "wings": {
+      "name": "披帛",
+      "count": 24,
+      "newCount": 18,
+      "items": [
+        {
+          "index": 0,
+          "name": "轻轻取下",
+          "color": "#f5f1e9",
+          "era": "自由搭配",
+          "group": "fairytale"
+        },
+        {
+          "index": 1,
+          "name": "花瓣蝴蝶翅",
+          "color": "#faedf3",
+          "era": "童话",
+          "group": "fairytale"
+        },
+        {
+          "index": 2,
+          "name": "蓝天精灵翅",
+          "color": "#eaf3f8",
+          "era": "童话",
+          "group": "fairytale"
+        },
+        {
+          "index": 3,
+          "name": "森林叶子翅",
+          "color": "#eff4e5",
+          "era": "童话",
+          "group": "fairytale"
+        },
+        {
+          "index": 4,
+          "name": "月光仙子翅",
+          "color": "#f2edf9",
+          "era": "童话",
+          "group": "fairytale"
+        },
+        {
+          "index": 5,
+          "name": "暖阳小天使翅",
+          "color": "#fcf5e4",
+          "era": "童话",
+          "group": "fairytale"
+        },
+        {
+          "index": 6,
+          "name": "桃花轻披帛",
+          "era": "古风",
+          "group": "ancient",
+          "color": "#f8eee2",
+          "kind": 0
+        },
+        {
+          "index": 7,
+          "name": "青莲流云帛",
+          "era": "古风",
+          "group": "ancient",
+          "color": "#eaf1e7",
+          "kind": 0
+        },
+        {
+          "index": 8,
+          "name": "桂月蓝纱帛",
+          "era": "古风",
+          "group": "ancient",
+          "color": "#f8e8e5",
+          "kind": 0
+        },
+        {
+          "index": 9,
+          "name": "朱砂长披帛",
+          "era": "古风",
+          "group": "ancient",
+          "color": "#eaf1f5",
+          "kind": 0
+        },
+        {
+          "index": 10,
+          "name": "竹影翠披帛",
+          "era": "古风",
+          "group": "ancient",
+          "color": "#f2ecf8",
+          "kind": 0
+        },
+        {
+          "index": 11,
+          "name": "杏雨织金帛",
+          "era": "古风",
+          "group": "ancient",
+          "color": "#fcf2dd",
+          "kind": 0
+        },
+        {
+          "index": 12,
+          "name": "紫藤双绸带",
+          "era": "古风",
+          "group": "ancient",
+          "color": "#f8eee2",
+          "kind": 0
+        },
+        {
+          "index": 13,
+          "name": "月白云锦帛",
+          "era": "古风",
+          "group": "ancient",
+          "color": "#eaf1e7",
+          "kind": 0
+        },
+        {
+          "index": 14,
+          "name": "海棠绣斗篷",
+          "era": "古风",
+          "group": "ancient",
+          "color": "#f8e8e5",
+          "kind": 0
+        },
+        {
+          "index": 15,
+          "name": "梅雪暖斗篷",
+          "era": "古风",
+          "group": "ancient",
+          "color": "#eaf1f5",
+          "kind": 0
+        },
+        {
+          "index": 16,
+          "name": "竹青小披风",
+          "era": "古风",
+          "group": "ancient",
+          "color": "#f2ecf8",
+          "kind": 0
+        },
+        {
+          "index": 17,
+          "name": "锦绒冬披风",
+          "era": "古风",
+          "group": "ancient",
+          "color": "#fcf2dd",
+          "kind": 0
+        },
+        {
+          "index": 18,
+          "name": "四合如意云肩",
+          "era": "古风",
+          "group": "ancient",
+          "color": "#f8eee2",
+          "kind": 0
+        },
+        {
+          "index": 19,
+          "name": "莲瓣小云肩",
+          "era": "古风",
+          "group": "ancient",
+          "color": "#eaf1e7",
+          "kind": 0
+        },
+        {
+          "index": 20,
+          "name": "金绣花云肩",
+          "era": "古风",
+          "group": "ancient",
+          "color": "#f8e8e5",
+          "kind": 0
+        },
+        {
+          "index": 21,
+          "name": "玉兰珠云肩",
+          "era": "古风",
+          "group": "ancient",
+          "color": "#eaf1f5",
+          "kind": 0
+        },
+        {
+          "index": 22,
+          "name": "桂月仙纱",
+          "era": "神话",
+          "group": "ancient",
+          "color": "#f2ecf8",
+          "kind": 0
+        },
+        {
+          "index": 23,
+          "name": "祥云羽衣",
+          "era": "神话",
+          "group": "ancient",
+          "color": "#fcf2dd",
+          "kind": 0
+        }
+      ]
+    },
+    "accessory": {
+      "name": "小物",
+      "count": 30,
+      "newCount": 24,
+      "items": [
+        {
+          "index": 0,
+          "name": "轻轻放下来",
+          "color": "#f5f1e9",
+          "era": "童话",
+          "group": "fairytale"
+        },
+        {
+          "index": 1,
+          "name": "星星魔法棒",
+          "color": "#fcf0f1",
+          "era": "童话",
+          "group": "fairytale"
+        },
+        {
+          "index": 2,
+          "name": "月亮魔法棒",
+          "color": "#f1eef8",
+          "era": "童话",
+          "group": "fairytale"
+        },
+        {
+          "index": 3,
+          "name": "花园小花束",
+          "color": "#eff2e9",
+          "era": "童话",
+          "group": "fairytale"
+        },
+        {
+          "index": 4,
+          "name": "爱心小气球",
+          "color": "#fbedf0",
+          "era": "童话",
+          "group": "fairytale"
+        },
+        {
+          "index": 5,
+          "name": "蝴蝶魔法棒",
+          "color": "#f2eef7",
+          "era": "童话",
+          "group": "fairytale"
+        },
+        {
+          "index": 6,
+          "name": "荷花小团扇",
+          "era": "古风",
+          "group": "ancient",
+          "color": "#f8eee2",
+          "kind": 0
+        },
+        {
+          "index": 7,
+          "name": "梅花小团扇",
+          "era": "古风",
+          "group": "ancient",
+          "color": "#eaf1e7",
+          "kind": 0
+        },
+        {
+          "index": 8,
+          "name": "竹叶小团扇",
+          "era": "古风",
+          "group": "ancient",
+          "color": "#f8e8e5",
+          "kind": 0
+        },
+        {
+          "index": 9,
+          "name": "金边小折扇",
+          "era": "古风",
+          "group": "ancient",
+          "color": "#eaf1f5",
+          "kind": 0
+        },
+        {
+          "index": 10,
+          "name": "双燕小折扇",
+          "era": "古风",
+          "group": "ancient",
+          "color": "#f2ecf8",
+          "kind": 0
+        },
+        {
+          "index": 11,
+          "name": "元宵圆灯笼",
+          "era": "古风",
+          "group": "ancient",
+          "color": "#fcf2dd",
+          "kind": 0
+        },
+        {
+          "index": 12,
+          "name": "六角宫灯",
+          "era": "古风",
+          "group": "ancient",
+          "color": "#f8eee2",
+          "kind": 0
+        },
+        {
+          "index": 13,
+          "name": "荷花小花灯",
+          "era": "古风",
+          "group": "ancient",
+          "color": "#eaf1e7",
+          "kind": 0
+        },
+        {
+          "index": 14,
+          "name": "桃花油纸伞",
+          "era": "古风",
+          "group": "ancient",
+          "color": "#f8e8e5",
+          "kind": 0
+        },
+        {
+          "index": 15,
+          "name": "青竹收拢伞",
+          "era": "古风",
+          "group": "ancient",
+          "color": "#eaf1f5",
+          "kind": 0
+        },
+        {
+          "index": 16,
+          "name": "碧玉小如意",
+          "era": "古风",
+          "group": "ancient",
+          "color": "#f2ecf8",
+          "kind": 0
+        },
+        {
+          "index": 17,
+          "name": "白玉小如意",
+          "era": "古风",
+          "group": "ancient",
+          "color": "#fcf2dd",
+          "kind": 0
+        },
+        {
+          "index": 18,
+          "name": "一枝红梅",
+          "era": "古风",
+          "group": "ancient",
+          "color": "#f8eee2",
+          "kind": 0
+        },
+        {
+          "index": 19,
+          "name": "一枝桂花",
+          "era": "古风",
+          "group": "ancient",
+          "color": "#eaf1e7",
+          "kind": 0
+        },
+        {
+          "index": 20,
+          "name": "亭亭小荷花",
+          "era": "古风",
+          "group": "ancient",
+          "color": "#f8e8e5",
+          "kind": 0
+        },
+        {
+          "index": 21,
+          "name": "春日小花篮",
+          "era": "古风",
+          "group": "ancient",
+          "color": "#eaf1f5",
+          "kind": 0
+        },
+        {
+          "index": 22,
+          "name": "月宫布偶兔",
+          "era": "神话",
+          "group": "ancient",
+          "color": "#f2ecf8",
+          "kind": 0
+        },
+        {
+          "index": 23,
+          "name": "小小拨浪鼓",
+          "era": "古风",
+          "group": "ancient",
+          "color": "#fcf2dd",
+          "kind": 0
+        },
+        {
+          "index": 24,
+          "name": "文房小毛笔",
+          "era": "古风",
+          "group": "ancient",
+          "color": "#f8eee2",
+          "kind": 0
+        },
+        {
+          "index": 25,
+          "name": "锦绣小书卷",
+          "era": "古风",
+          "group": "ancient",
+          "color": "#eaf1e7",
+          "kind": 0
+        },
+        {
+          "index": 26,
+          "name": "平安中国结",
+          "era": "古风",
+          "group": "ancient",
+          "color": "#f8e8e5",
+          "kind": 0
+        },
+        {
+          "index": 27,
+          "name": "蝴蝶小纸鸢",
+          "era": "古风",
+          "group": "ancient",
+          "color": "#eaf1f5",
+          "kind": 0
+        },
+        {
+          "index": 28,
+          "name": "绣球蹴鞠",
+          "era": "古风",
+          "group": "ancient",
+          "color": "#f2ecf8",
+          "kind": 0
+        },
+        {
+          "index": 29,
+          "name": "锦囊玉佩",
+          "era": "古风",
+          "group": "ancient",
+          "color": "#fcf2dd",
+          "kind": 0
+        }
+      ]
+    },
+    "scene": {
+      "name": "场景",
+      "count": 12,
+      "newCount": 9,
+      "items": [
+        {
+          "index": 0,
+          "name": "玫瑰花园",
+          "color": "#f2f1e4",
+          "era": "童话",
+          "group": "fairytale"
+        },
+        {
+          "index": 1,
+          "name": "云上城堡",
+          "color": "#fcf0e7",
+          "era": "童话",
+          "group": "fairytale"
+        },
+        {
+          "index": 2,
+          "name": "月光仙境",
+          "color": "#eeeaf7",
+          "era": "童话",
+          "group": "fairytale"
+        },
+        {
+          "index": 3,
+          "name": "竹林小径",
+          "era": "古风",
+          "group": "ancient",
+          "color": "#f8eee2",
+          "kind": 0
+        },
+        {
+          "index": 4,
+          "name": "荷塘水榭",
+          "era": "古风",
+          "group": "ancient",
+          "color": "#eaf1e7",
+          "kind": 0
+        },
+        {
+          "index": 5,
+          "name": "宫苑牡丹",
+          "era": "古风",
+          "group": "ancient",
+          "color": "#f8e8e5",
+          "kind": 0
+        },
+        {
+          "index": 6,
+          "name": "宋院茶亭",
+          "era": "宋风",
+          "group": "ancient",
+          "color": "#eaf1f5",
+          "kind": 0
+        },
+        {
+          "index": 7,
+          "name": "江南小桥",
+          "era": "古风",
+          "group": "ancient",
+          "color": "#f2ecf8",
+          "kind": 0
+        },
+        {
+          "index": 8,
+          "name": "塞北草原",
+          "era": "古风",
+          "group": "ancient",
+          "color": "#fcf2dd",
+          "kind": 0
+        },
+        {
+          "index": 9,
+          "name": "元宵灯街",
+          "era": "节令",
+          "group": "ancient",
+          "color": "#f8eee2",
+          "kind": 0
+        },
+        {
+          "index": 10,
+          "name": "梅雪庭院",
+          "era": "冬日",
+          "group": "ancient",
+          "color": "#eaf1e7",
+          "kind": 0
+        },
+        {
+          "index": 11,
+          "name": "月宫桂树",
+          "era": "神话",
+          "group": "ancient",
+          "color": "#f8e8e5",
+          "kind": 0
+        }
+      ]
+    }
+  },
+  "groups": [
+    {
+      "id": "preqin",
+      "name": "先秦衣裳",
+      "detail": "商周、春秋、战国",
+      "dress": 6
+    },
+    {
+      "id": "qinhan",
+      "name": "秦汉长衣",
+      "detail": "秦风、西汉、东汉",
+      "dress": 10
+    },
+    {
+      "id": "weijin",
+      "name": "三国两晋",
+      "detail": "三国、西晋、东晋",
+      "dress": 14
+    },
+    {
+      "id": "northsouth",
+      "name": "南北朝风",
+      "detail": "南朝、北魏、北齐",
+      "dress": 17
+    },
+    {
+      "id": "suitang",
+      "name": "隋唐五代",
+      "detail": "隋、初唐、盛唐、晚唐、五代",
+      "dress": 20
+    },
+    {
+      "id": "songyuan",
+      "name": "宋辽夏金元",
+      "detail": "北宋、南宋、辽、西夏、金、元",
+      "dress": 26
+    },
+    {
+      "id": "mingqing",
+      "name": "明清华服",
+      "detail": "袄裙、比甲、马面裙与旗装",
+      "dress": 31
+    },
+    {
+      "id": "myth",
+      "name": "神话仙衣",
+      "detail": "敦煌、嫦娥的童话灵感",
+      "dress": 35
+    },
+    {
+      "id": "fairytale",
+      "name": "童话衣橱",
+      "detail": "保留原有童话裙装",
+      "dress": 0
+    }
+  ]
+}

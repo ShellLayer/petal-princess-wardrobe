@@ -1,0 +1,105 @@
+花间小公主 3.0 最终完整生图提示词
+方式：内置 image_gen 工具。服装与发型 transparent_background=true，场景 false。
+参考文件：原项目角色图用于第一组定位；其余服装和发型以新中国人物原图作为定位与风格参考。
+
+=== garments-a ===
+保存：assets/v3/garments-a-original.png
+
+Use case: illustration-story / dress-up production sprite atlas.
+Reference image is ONLY a coordinate/pose guide. Replace the Western fairytale design with an ORIGINAL CHINESE little girl character and historical Chinese clothing. Make a transparent 1086x1448 PNG atlas, exactly 3 columns by 2 rows; every cell is 362x724. Same girl in all six cells, full body straight-on. Chinese child's natural East Asian facial features, softly almond-shaped dark brown eyes of moderate size, gently rounded cheeks, small nose, sweet calm smile, warm light-medium skin. Premium Chinese watercolor and delicate gongbi children's picture-book style, luminous silk folds, beautifully embroidered textile detail, no European lace or ball-gown shapes. Completely age-appropriate, all six outfits fully cover chest, shoulders, legs.
+Production rig in EACH cell: head top y=65, face center x=181 y=158, chin at y=211, neckline at y=230, hands relaxed outwards around x=51 and x=311 at y=398, feet centered x=161 and x=201 with soles y=678. Head/body/arms/legs position and scale IDENTICAL in all six outfits, same face. NO scalp hair, NO wig, NO head ornaments, NO shoes, NO props (these are independent game layers). Smooth bald head and bare feet are deliberately needed technical layers. Dress hemlines end at y=622, exposing identical lower ankles and feet. Leave transparent margin, keep gowns and sleeves wholly inside own cell. No changing pose.
+Six outfits, reading top-left to bottom-right:
+1. Shang–Zhou-inspired two-piece Chinese yi and chang: warm ivory cross-collar upper garment, muted cinnabar-red pleated lower skirt, broad ochre geometric cloud-pattern borders and simple wide woven waist sash. Restrained bronze-age geometric motifs.
+2. Spring-and-Autumn Zhou-inspired cross-collar indigo short robe over warm terracotta skirt, jade-colored waist pendant, small meander-pattern woven borders; dignified layered straight silhouette.
+3. Warring States Chu-inspired long wrap robe: plum purple and red-brown, visibly curving overlapping robe panels, restrained embroidered phoenix/cloud motifs, broad decorative lapel and flowing but not oversized sleeves.
+4. Qin-inspired black-charcoal cross-collar long robe with narrow muted vermilion edging and a broad dark red woven belt, clean dignified narrow silhouette, no armour.
+5. Western Han-inspired quju wrap robe: warm rose and pale cream, distinctive long diagonal wrapping curved hem panels around the body, fine cloud-scroll brocade border and waist sash.
+6. Eastern Han-inspired short pale ivory cross-collar ru jacket with narrow sleeves over jade-green long pleated skirt, fine burgundy hem edging.
+These are CHILD-FRIENDLY artistic interpretations of period silhouettes, not fantasy European gowns. Preserve exact rig and scale for interchangeable layers. Real transparent alpha, no shadows, ground, grid, border, writing, numbers, watermarks or labels. Only six complete dolls wearing the described clothes.
+
+=== garments-b ===
+保存：assets/v3/garments-b-original.png
+
+Use case: precise-object-edit, Chinese historical dress-up production atlas. Reference is the Chinese child rig to preserve. EXACT same 1055x1491 canvas, 3 columns x 2 rows, same Chinese girl's face, bald head, body pose and all head, neckline, wrists, ankles and bare feet positions in every cell. Chinese watercolor and delicate gongbi children's picture-book finish, richly detailed embroidered silk, rounded childlike proportions. Change ONLY the six clothes; never move the head, hands, feet, body or cell alignment. Modest CHILD versions of historical silhouettes, covered chest, covered shoulders and legs, no makeup. Sleeves can vary but keep hands visible in exactly the reference locations. ALL hemlines end at the reference ankle level, leaving the same feet exposed. No hair, hats, head ornaments, shoes, jewellery, handheld props, backgrounds, ground or shadows. Real transparent alpha, no text, cell borders, grid or labels. These are period-inspired artistic children's costumes, not museum replicas. Read outfits top-left, top-middle, top-right, bottom-left, bottom-middle, bottom-right.
+1. Three Kingdoms-inspired narrow-sleeve cross-collar short ivory ru jacket over soft orchid-lavender long skirt, narrow plum waist ribbon, very small cloud embroidery.
+2. Western Jin-inspired pale sage broad-sleeve cross-collar jacket with indigo embroidered borders and soft cream long pleated skirt, layered woven waist sash. Distinct generous sleeve silhouette.
+3. Eastern Jin-inspired warm ivory and misty sky-blue broad flowing jacket and elegant long straight skirt, slim draped pale blue ribbons ending above ankles. Graceful scholarly garden feeling.
+4. Southern Dynasties-inspired pale peach and coral za-ju-style layered dress with several clear triangular pointed skirt panels and long slim swallowtail ribbons, broadly flowing sleeves. Child-safe and fully modest.
+5. Northern Wei-inspired sky blue narrow-sleeve cross-collar short tunic, deep rose long skirt, broad dark woven border and sash, distinctly compact practical silhouette.
+6. Northern Qi-inspired narrow-sleeve pale yellow short jacket and high-waisted skirt made of alternating pale mint and ivory VERTICAL color panels, elegant red belt at upper waist. This striped silhouette must differ from the previous five.
+
+=== garments-c ===
+保存：assets/v3/garments-c-original.png
+
+Use case: precise-object-edit, Chinese historical dress-up production atlas. Reference is the Chinese child rig to preserve. EXACT same 1055x1491 canvas, 3 columns x 2 rows, same Chinese girl's face, bald head, body pose and all head, neckline, wrists, ankles and bare feet positions in every cell. Chinese watercolor and delicate gongbi children's picture-book finish, richly detailed embroidered silk, rounded childlike proportions. Change ONLY the six clothes; never move the head, hands, feet, body or cell alignment. Modest CHILD versions of historical silhouettes, covered chest, covered shoulders and legs, no makeup. Sleeves can vary but keep hands visible in exactly the reference locations. ALL hemlines end at the reference ankle level, leaving the same feet exposed. No hair, hats, head ornaments, shoes, jewellery, handheld props, backgrounds, ground or shadows. Real transparent alpha, no text, cell borders, grid or labels. These are period-inspired artistic children's costumes, not museum replicas. Read outfits top-left, top-middle, top-right, bottom-left, bottom-middle, bottom-right.
+1. Sui-inspired pale apricot narrow-sleeve short ru jacket over a high-waisted long skirt with alternating soft peach and warm ivory VERTICAL panels, slim rose waist ribbon. Clear inter-color panelled skirt.
+2. Early Tang-inspired layered outfit: soft pale-yellow short-sleeve BANBI vest over an ivory long-sleeve ru blouse, long pale jade-green high-waisted skirt, tiny round floral brocade and a short red sash. The separate short-sleeve vest must be clearly visible.
+3. High Tang-inspired peony rose and pale cream high-waisted ruqun, covered high-neck ivory underblouse, ample warm-pink skirt with very small peony embroideries, slim soft mint draped ribbon. No bare chest.
+4. Late Tang-inspired large-sleeved translucent-looking pale sky blue outer shan over a modest ivory underblouse and a rich coral long skirt, restrained cloud and flower embroidery. Keep hands exposed in the exact guide pose.
+5. Five Dynasties-inspired slender straight skirt and long open-front ivory-and-misty-lilac jacket, natural-waist narrow red sash, refined tiny floral trim, restrained elegant silhouette.
+6. Dunhuang-inspired CHILD-FRIENDLY mythic dance costume: modest long-sleeve jade blouse with pale golden lapel, apricot long skirt, slim peach flowing sashes and delicate lotus embroideries. No bare midriff, no bare shoulders, no jewellery or halo. The dress is a fantasy-art interpretation, not a historical reconstruction.
+
+=== garments-d ===
+保存：assets/v3/garments-d-original.png
+
+Use case: precise-object-edit, Chinese historical dress-up production atlas. Reference is the Chinese child rig to preserve. EXACT same 1055x1491 canvas, 3 columns x 2 rows, same Chinese girl's face, bald head, body pose and all head, neckline, wrists, ankles and bare feet positions in every cell. Chinese watercolor and delicate gongbi children's picture-book finish, richly detailed embroidered silk, rounded childlike proportions. Change ONLY the six clothes; never move the head, hands, feet, body or cell alignment. Modest CHILD versions of historical silhouettes, covered chest, covered shoulders and legs, no makeup. Sleeves can vary but keep hands visible in exactly the reference locations. ALL hemlines end at the reference ankle level, leaving the same feet exposed. No hair, hats, head ornaments, shoes, jewellery, handheld props, backgrounds, ground or shadows. Real transparent alpha, no text, cell borders, grid or labels. These are period-inspired artistic children's costumes, not museum replicas. Read outfits top-left, top-middle, top-right, bottom-left, bottom-middle, bottom-right.
+1. Northern Song-inspired tea-green straight open-front long beizi jacket over a warm ivory modest long-sleeve blouse and pale apricot pleated skirt, clean narrow floral borders, natural waist.
+2. Southern Song-inspired fine pale orchid beizi with beautifully detailed gold-printed floral edging, modest ivory underblouse and pale jade-green finely pleated wrap skirt, small hanging waist ribbons.
+3. Liao-inspired compact round-collar long silk brocade robe in muted turquoise and pale gold, narrow sleeves and simple waist belt, paired-goose roundel embroidery with northern steppe character. No fur or crowns.
+4. Western Xia-inspired elegant muted apricot cross-collar long robe with narrow patterned plum borders, deep burgundy long skirt and woven sash, restrained lotus-inspired motifs. Distinct warm desert palette, not Tang high-waist.
+5. Jin/Jurchen-inspired pale ivory outer long wrap robe with narrow dark red edging over a purple-and-gold brocade inner robe, slim warm-red waist sash, modest compact sleeves. No headdress or hat.
+6. Yuan-inspired narrow-sleeved long robe in pale blue with golden cloud/scroll brocade, a clearly defined decorative waist band with small closely gathered pleats below the waist (waistline robe inspiration), clean wrapped collar and coral woven belt. Child garment, no jewellery.
+
+=== garments-e ===
+保存：assets/v3/garments-e-original.png
+
+Use case: precise-object-edit, Chinese historical dress-up production atlas. Reference is the Chinese child rig to preserve. EXACT same 1055x1491 canvas, 3 columns x 2 rows, same Chinese girl's face, bald head, body pose and all head, neckline, wrists, ankles and bare feet positions in every cell. Chinese watercolor and delicate gongbi children's picture-book finish, richly detailed embroidered silk, rounded childlike proportions. Change ONLY the six clothes; never move the head, hands, feet, body or cell alignment. Modest CHILD versions of historical silhouettes, covered chest, covered shoulders and legs, no makeup. Sleeves can vary but keep hands visible in exactly the reference locations. ALL hemlines end at the reference ankle level, leaving the same feet exposed. No hair, hats, head ornaments, shoes, jewellery, handheld props, backgrounds, ground or shadows. Real transparent alpha, no text, cell borders, grid or labels. These are period-inspired artistic children's costumes, not museum replicas. Read outfits top-left, top-middle, top-right, bottom-left, bottom-middle, bottom-right.
+1. Early/middle Ming-inspired pale cream cross-collar long-sleeve ao jacket worn OUTSIDE a sage green long pleated skirt, soft dark rose borders and tiny orchid embroidery. Clearly separate loose upper jacket and skirt.
+2. Late Ming-inspired pale peach STANDING-COLLAR ao jacket with a few tiny traditional cloth knot fastenings over a coral pink MAMIAN skirt: clear central flat panel and pleated sides, fine gold border motifs. No modern qipao.
+3. Ming-inspired light golden sleeveless long BIJIA vest over an ivory long-sleeve blouse and indigo blue pleated skirt, small sunflower and leaf embroidery. Distinct visible long vest.
+4. Qing Manchu-inspired modest pale jade straight child's qi robe with asymmetric curved lapel, small knot fastenings, narrow cream embroidered borders and tiny white magnolia blossoms. Gentle straight silhouette ending above the guide feet, no high platform shoes.
+5. Qing Han-Chinese-inspired pale rose wide-sleeve ao jacket with several narrow embroidered edging bands over an ivory long skirt with pale sage flower panels, restrained flower embroidery. Must clearly look like ao plus skirt, different from the straight qi robe.
+6. Chang'e moon-fairy MYTH-inspired modest long-sleeve ivory cross-collar blouse, flowing pale periwinkle and lavender layered skirt, narrow gold moon/cloud embroidery and pale blue draped sashes. No European lace, wings, bare shoulders, bare midriff, halo or props. Keep technical bald head and bare feet unchanged.
+
+=== hair-a ===
+保存：assets/v3/hair-a-original.png
+
+Use case: illustration-story. Asset: Chinese historical HAIR-ONLY game overlays. Reference image is a bald Chinese child, 3 columns x 2 rows. Make EXACTLY same 1055x1491 transparent canvas, same six cells and same head position in each cell. Paint only SIX black/dark espresso hairstyles on the guide doll heads, then hide the entire doll. NO faces, skin, head, ears, eyes, neck, clothing, pins, hair ornaments, ribbons, text or background. Real alpha face openings. Each face opening corresponds to the head in its cell, centered at local x about176,y158, eyes about149 and202,y158, chin y213. Hair frames face without hiding eyes. In each 352x746 cell: fitted scalp hair top around y50-65, safe transparent face opening x120..235 around y125..215, lower hair can fall to shoulders y280-330, large empty transparent lower cell. Output must be a clean compositing layer; no accessories whatsoever.
+Style matches reference: premium Chinese watercolor/gongbi children's picture book, naturally detailed fine BLACK hair strands, dimensional soft highlights, soft clean silhouettes. Six different clearly recognizable hairstyles for a sweet Chinese little girl. Child-friendly reinterpretations, not adult high wigs. All six fit EXACT same head size and pose. Read top-left to bottom-right:
+1. Neat double small round buns (双丫髻), softly center-parted front hair, two short curved side locks.
+2. Two open looped side buns (双环髻), clear circular loops above sides of head, airy wispy center-parted bangs.
+3. Low coiled bun (低绾髻) with smooth hair drawn back, two small natural curved cheek locks, short at neck.
+4. Tall single spiral snail bun (单螺髻), one small compact spiral coil above center scalp, soft side-swept bangs.
+5. Two dangling shoulder braids attached to smooth twin low buns, center part and clear forehead, braid tips to y315.
+6. Feather-light raised twin loop fairy bun (飞仙双鬟灵感), two graceful tall open loops curving upward, no wings, dark black hair, small wispy side locks.
+
+=== hair-b ===
+保存：assets/v3/hair-b-original.png
+
+Use case: illustration-story. Asset: Chinese historical HAIR-ONLY game overlays. Reference image is a bald Chinese child, 3 columns x 2 rows. Make EXACTLY same 1055x1491 transparent canvas, same six cells and same head position in each cell. Paint only SIX black/dark espresso hairstyles on the guide doll heads, then hide the entire doll. NO faces, skin, head, ears, eyes, neck, clothing, pins, hair ornaments, ribbons, text or background. Real alpha face openings. Each face opening corresponds to the head in its cell, centered at local x about176,y158, eyes about149 and202,y158, chin y213. Hair frames face without hiding eyes. In each 352x746 cell: fitted scalp hair top around y50-65, safe transparent face opening x120..235 around y125..215, lower hair can fall to shoulders y280-330, large empty transparent lower cell. Output must be a clean compositing layer; no accessories whatsoever.
+Style matches reference: premium Chinese watercolor/gongbi children's picture book, naturally detailed fine BLACK hair strands, dimensional soft highlights, soft clean silhouettes. Six different clearly recognizable hairstyles for a sweet Chinese little girl. Child-friendly reinterpretations, not adult high wigs. All six fit EXACT same head size and pose. Read top-left to bottom-right:
+1. Two compact spiral coiled buns raised above the left and right crown (双螺髻), smooth center part and very short wispy side locks, no braids.
+2. Two graceful hanging oval loop buns behind the ears (垂鬟髻灵感), neatly pulled-back scalp hair with a small center part, no long loose hair.
+3. Three elegant small interlocking loops above the crown (三环髻灵感), clear three-loop silhouette, soft short side-swept bangs, eyes fully unobstructed.
+4. Compact low rear bun with a smooth rounded coiled crown and softly brushed-back forehead (宋式低髻灵感), two short fine cheek wisps, completely natural black hair.
+5. Rounded layered coiled bun centered high at the back of the head (明式盘髻灵感), neat center-parted front hair, very small side rolls, no tall hats.
+6. Qing CHILD-inspired twin low braided buns, braided hair wraps tucked neatly behind both ears, clear broad forehead with one small wispy fringe. No adult court flag headdress, no hair ornaments.
+
+=== scenes ===
+保存：assets/v3/scenes-original.png
+
+Use case: illustration-story. Asset: Chinese storybook scene atlas for a preschool Chinese historical dress-up game.
+Create ONE portrait PNG atlas of NINE separate scenes in an EXACT 3-column by 3-row equal rectangular grid. Overall 1536x2048 if possible, no margins or separators; each cell a self-contained portrait background. Chinese gongbi watercolor, delicate hand-painted children's picture-book art, subtle rice paper texture, elegant architecture, lovely natural detail, gentle luminous pastel palette. No European castles, no people, no animals in center, no lettering, no text, no watermark. Each cell center 55% is airy, uncluttered, low-contrast pale space intended behind a large full-body child. Beautiful detail only along outer edges and top, flat level walking ground in bottom 18%, same horizon level in all scenes.
+Nine scenes in reading order:
+1. Chinese bamboo grove path, arching slender bamboo leaves, pale misty ivory center, light stone path, small mossy rocks at bottom sides.
+2. Lotus pond pavilion with green and pink lotus blossoms in lower side edges, delicate pale wooden Chinese waterside railing at sides, an open pale center and level stone platform.
+3. Peony-filled ancient Chinese palace garden, warm ochre and soft vermilion pavilion edges, graceful tiled eaves along top, luminous cream open central garden path.
+4. Quiet Song-style scholar's tea courtyard, white plaster wall edges, dark gray curved roof tiles, small plum blossoms and an empty cream central stone floor; tea table only at far edge.
+5. Jiangnan water-town garden, white walls, dark tiled eaves and a small distant arched stone bridge, willow branches near edges, open warm pale stone walkway in foreground.
+6. Northern steppe spring meadow, softly distant rounded hills, tiny distant traditional felt yurt at far edge, low wildflowers, pale blue and warm cream center, level grassy ground.
+7. Lantern festival garden street, soft red and gold paper lanterns at upper corners, warm gentle evening glow, distant Chinese wooden storefront edges, uncluttered pale golden center, level stone street. No writing on lanterns or shops.
+8. Snowy plum-blossom courtyard, red plum twigs framing upper sides, pale gray-green Chinese tiled roof edges, light soft snow ground, airy warm-ivory mist center.
+9. Mythic moon palace garden, pale golden full moon near upper corner, flowering osmanthus tree branches, light periwinkle Chinese pavilion edges, dreamy pale lavender center, smooth soft cloud-like level ground. Friendly and luminous, not dark.
+The grid boundaries must be perfectly at 1/3 and 2/3 of width and height; every scene contained in its own cell. Make each scene equally carefully painted and visually distinct. No frames, captions, black bars or grid lines.
+
+

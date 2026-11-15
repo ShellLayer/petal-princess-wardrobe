@@ -1,0 +1,564 @@
+{
+  "clothing": [
+    {
+      "dress": 6,
+      "differences": [
+        169,
+        144,
+        163,
+        170
+      ]
+    },
+    {
+      "dress": 7,
+      "differences": [
+        83,
+        84,
+        88,
+        141
+      ]
+    },
+    {
+      "dress": 8,
+      "differences": [
+        155,
+        145,
+        174,
+        136
+      ]
+    },
+    {
+      "dress": 9,
+      "differences": [
+        62,
+        66,
+        121,
+        124
+      ]
+    },
+    {
+      "dress": 10,
+      "differences": [
+        139,
+        144,
+        139,
+        148
+      ]
+    },
+    {
+      "dress": 11,
+      "differences": [
+        121,
+        155,
+        129,
+        130
+      ]
+    },
+    {
+      "dress": 12,
+      "differences": [
+        86,
+        186,
+        104,
+        83
+      ]
+    },
+    {
+      "dress": 13,
+      "differences": [
+        102,
+        117,
+        58,
+        27
+      ]
+    },
+    {
+      "dress": 14,
+      "differences": [
+        99,
+        108,
+        149,
+        46
+      ]
+    },
+    {
+      "dress": 15,
+      "differences": [
+        137,
+        144,
+        145,
+        139
+      ]
+    },
+    {
+      "dress": 16,
+      "differences": [
+        89,
+        101,
+        96,
+        88
+      ]
+    },
+    {
+      "dress": 17,
+      "differences": [
+        137,
+        130,
+        161,
+        148
+      ]
+    },
+    {
+      "dress": 18,
+      "differences": [
+        150,
+        145,
+        150,
+        151
+      ]
+    },
+    {
+      "dress": 19,
+      "differences": [
+        107,
+        156,
+        179,
+        174
+      ]
+    },
+    {
+      "dress": 20,
+      "differences": [
+        160,
+        173,
+        131,
+        131
+      ]
+    },
+    {
+      "dress": 21,
+      "differences": [
+        132,
+        133,
+        171,
+        130
+      ]
+    },
+    {
+      "dress": 22,
+      "differences": [
+        150,
+        111,
+        97,
+        97
+      ]
+    },
+    {
+      "dress": 23,
+      "differences": [
+        145,
+        144,
+        158,
+        164
+      ]
+    },
+    {
+      "dress": 24,
+      "differences": [
+        114,
+        103,
+        160,
+        162
+      ]
+    },
+    {
+      "dress": 25,
+      "differences": [
+        123,
+        101,
+        164,
+        139
+      ]
+    },
+    {
+      "dress": 26,
+      "differences": [
+        133,
+        71,
+        106,
+        101
+      ]
+    },
+    {
+      "dress": 27,
+      "differences": [
+        140,
+        132,
+        117,
+        144
+      ]
+    },
+    {
+      "dress": 28,
+      "differences": [
+        115,
+        100,
+        164,
+        164
+      ]
+    },
+    {
+      "dress": 29,
+      "differences": [
+        114,
+        84,
+        175,
+        174
+      ]
+    },
+    {
+      "dress": 30,
+      "differences": [
+        123,
+        103,
+        122,
+        122
+      ]
+    },
+    {
+      "dress": 31,
+      "differences": [
+        142,
+        151,
+        161,
+        163
+      ]
+    },
+    {
+      "dress": 32,
+      "differences": [
+        130,
+        159,
+        183,
+        169
+      ]
+    },
+    {
+      "dress": 33,
+      "differences": [
+        93,
+        123,
+        148,
+        147
+      ]
+    },
+    {
+      "dress": 34,
+      "differences": [
+        113,
+        144,
+        114,
+        129
+      ]
+    },
+    {
+      "dress": 35,
+      "differences": [
+        136,
+        135,
+        180,
+        178
+      ]
+    },
+    {
+      "dress": 36,
+      "differences": [
+        72,
+        75,
+        60,
+        76
+      ]
+    },
+    {
+      "dress": 37,
+      "differences": [
+        137,
+        135,
+        125,
+        128
+      ]
+    },
+    {
+      "dress": 38,
+      "differences": [
+        42,
+        74,
+        114,
+        36
+      ]
+    },
+    {
+      "dress": 39,
+      "differences": [
+        157,
+        145,
+        161,
+        144
+      ]
+    },
+    {
+      "dress": 40,
+      "differences": [
+        152,
+        137,
+        159,
+        156
+      ]
+    },
+    {
+      "dress": 41,
+      "differences": [
+        142,
+        143,
+        135,
+        133
+      ]
+    },
+    {
+      "dress": 42,
+      "differences": [
+        118,
+        113,
+        131,
+        100
+      ]
+    },
+    {
+      "dress": 43,
+      "differences": [
+        168,
+        153,
+        151,
+        144
+      ]
+    },
+    {
+      "dress": 44,
+      "differences": [
+        134,
+        150,
+        152,
+        163
+      ]
+    },
+    {
+      "dress": 45,
+      "differences": [
+        85,
+        101,
+        171,
+        139
+      ]
+    },
+    {
+      "dress": 46,
+      "differences": [
+        148,
+        174,
+        152,
+        150
+      ]
+    },
+    {
+      "dress": 47,
+      "differences": [
+        140,
+        137,
+        147,
+        159
+      ]
+    }
+  ],
+  "skin": [
+    {
+      "shoe": 0,
+      "boot": false,
+      "difference": 0
+    },
+    {
+      "shoe": 1,
+      "boot": false,
+      "difference": 0
+    },
+    {
+      "shoe": 2,
+      "boot": false,
+      "difference": 0
+    },
+    {
+      "shoe": 3,
+      "boot": false,
+      "difference": 0
+    },
+    {
+      "shoe": 4,
+      "boot": false,
+      "difference": 0
+    },
+    {
+      "shoe": 5,
+      "boot": false,
+      "difference": 0
+    },
+    {
+      "shoe": 6,
+      "boot": false,
+      "difference": 0
+    },
+    {
+      "shoe": 7,
+      "boot": false,
+      "difference": 0
+    },
+    {
+      "shoe": 8,
+      "boot": false,
+      "difference": 0
+    },
+    {
+      "shoe": 9,
+      "boot": false,
+      "difference": 0
+    },
+    {
+      "shoe": 10,
+      "boot": false,
+      "difference": 0
+    },
+    {
+      "shoe": 11,
+      "boot": false,
+      "difference": 0
+    },
+    {
+      "shoe": 12,
+      "boot": true,
+      "difference": 85
+    },
+    {
+      "shoe": 13,
+      "boot": true,
+      "difference": 85
+    },
+    {
+      "shoe": 14,
+      "boot": true,
+      "difference": 34
+    },
+    {
+      "shoe": 15,
+      "boot": false,
+      "difference": 0
+    },
+    {
+      "shoe": 16,
+      "boot": false,
+      "difference": 0
+    },
+    {
+      "shoe": 17,
+      "boot": false,
+      "difference": 0
+    },
+    {
+      "shoe": 18,
+      "boot": false,
+      "difference": 0
+    },
+    {
+      "shoe": 19,
+      "boot": false,
+      "difference": 0
+    },
+    {
+      "shoe": 20,
+      "boot": false,
+      "difference": 0
+    },
+    {
+      "shoe": 21,
+      "boot": false,
+      "difference": 0
+    },
+    {
+      "shoe": 22,
+      "boot": false,
+      "difference": 0
+    },
+    {
+      "shoe": 23,
+      "boot": true,
+      "difference": 99
+    },
+    {
+      "shoe": 24,
+      "boot": false,
+      "difference": 0
+    },
+    {
+      "shoe": 25,
+      "boot": false,
+      "difference": 0
+    },
+    {
+      "shoe": 26,
+      "boot": false,
+      "difference": 0
+    },
+    {
+      "shoe": 27,
+      "boot": false,
+      "difference": 0
+    },
+    {
+      "shoe": 28,
+      "boot": true,
+      "difference": 56
+    },
+    {
+      "shoe": 29,
+      "boot": false,
+      "difference": 0
+    },
+    {
+      "shoe": 30,
+      "boot": false,
+      "difference": 0
+    },
+    {
+      "shoe": 31,
+      "boot": false,
+      "difference": 0
+    },
+    {
+      "shoe": 32,
+      "boot": false,
+      "difference": 0
+    },
+    {
+      "shoe": 33,
+      "boot": true,
+      "difference": 44
+    },
+    {
+      "shoe": 34,
+      "boot": false,
+      "difference": 0
+    },
+    {
+      "shoe": 35,
+      "boot": false,
+      "difference": 0
+    }
+  ]
+}

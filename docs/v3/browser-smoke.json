@@ -1,0 +1,60 @@
+{
+  "Chrome": {
+    "version": "157.0.8103.79",
+    "cpuSlowdown": 4,
+    "garmentChanges": [
+      {
+        "dress": 6,
+        "readyAndPaintMs": 307.8
+      },
+      {
+        "dress": 12,
+        "readyAndPaintMs": 53.1
+      },
+      {
+        "dress": 18,
+        "readyAndPaintMs": 41.9
+      },
+      {
+        "dress": 24,
+        "readyAndPaintMs": 52.4
+      },
+      {
+        "dress": 30,
+        "readyAndPaintMs": 44
+      }
+    ],
+    "allLayersPhotoReady": true,
+    "payloadBytes": 1656395,
+    "errors": []
+  },
+  "Edge": {
+    "version": "157.0.4341.46",
+    "cpuSlowdown": 4,
+    "garmentChanges": [
+      {
+        "dress": 6,
+        "readyAndPaintMs": 351.6
+      },
+      {
+        "dress": 12,
+        "readyAndPaintMs": 39.9
+      },
+      {
+        "dress": 18,
+        "readyAndPaintMs": 49.9
+      },
+      {
+        "dress": 24,
+        "readyAndPaintMs": 43.3
+      },
+      {
+        "dress": 30,
+        "readyAndPaintMs": 52.1
+      }
+    ],
+    "allLayersPhotoReady": true,
+    "payloadBytes": 1656395,
+    "errors": []
+  }
+}
